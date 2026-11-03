@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 10: ROUTER und Mudi V2
+[![Visualisierte Workflow-Vorschau 10](../media/workflows/WF-10.svg)](../workflow.html?id=10)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=10)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
