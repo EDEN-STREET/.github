@@ -1,4 +1,4 @@
-# EDEN Suite — ASCII-Atlas
+# EDEN Suite — Strukturatlas
 Version 0.1.0 · Dokumentationsentwurf
 
 ## Systemgrenzen
