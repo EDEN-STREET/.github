@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/EDEN-STREET/.github/blob/main/docs/workflows/schema.json",
+  "title": "EDEN Suite Workflow Registry",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project",
+    "status",
+    "updated",
+    "workflows"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "project": {
+      "const": "EDEN STREET / EDEN Suite"
+    },
+    "status": {
+      "const": "DOCUMENTATION_ONLY"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "required_gates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "workflows": {
+      "type": "array",
+      "minItems": 17,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "slug",
+          "area",
+          "status",
+          "execution_mode",
+          "version",
+          "prompt",
+          "visualization",
+          "preview",
+          "area_guidance",
+          "required_gates"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^WF-[0-9]{2}$"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "area": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "DESIGN",
+              "DEMO",
+              "IMPLEMENTED",
+              "TESTED",
+              "APPROVED"
+            ]
+          },
+          "execution_mode": {
+            "const": "SIMULATION_ONLY"
+          },
+          "version": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "visualization": {
+            "type": "string"
+          },
+          "preview": {
+            "type": "string"
+          },
+          "area_guidance": {
+            "type": "string"
+          },
+          "required_gates": {
+            "type": "array",
+            "minItems": 4,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
