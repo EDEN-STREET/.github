@@ -23,3 +23,14 @@ Mudi V2 / GL-E750V2 ist Teil der vorhandenen Projektunterlagen. In der Arbeitsum
 Ein eigenständiges GitHub-Repository `EDEN-STREET/ROUTER` ist aktuell **nicht verifiziert/noch anzulegen**. Dieser dokumentierte Projektbereich ist ein Übergang, kein Ersatz für das Repository.
 
 **Keine Routerparameter wurden verändert.** Die veröffentlichte HTML-Ansicht ist nur eine Navigation-/Simulation.
+
+
+## Projektvorschau und Workflow
+
+[![EDEN ROUTER – schematische Konzeptvorschau](../media/previews/router.svg)](../preview.html?surface=router)
+
+[**ROUTER-HTML-Konzeptdemo öffnen**](../preview.html?surface=router) · [Arbeitsanleitung und Prompt](../prompts/10-router.md) · [Bereichs-llms.txt](../areas/router/llms.txt)
+
+[![EDEN ROUTER – dokumentierter Workflow](../media/workflows/WF-10.svg)](../workflow.html?id=10)
+
+Die Bildvorschau zeigt ausschließlich geplante Benutzerführung und enthält keine verbundenen Geräte.
