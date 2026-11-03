@@ -8,7 +8,7 @@
 
 [![EDEN Wiki – skalierbare schematische Vorschau](../../media/previews/wiki.svg)](../../preview.html?surface=wiki)
 
-**[HTML-Vorschau öffnen](../../preview.html?surface=wiki)**
+**[Interaktives Wiki-/Handbuchportal öffnen](../../wiki.html?tab=wiki)** · [Historische HTML-Demo](../../preview.html?surface=wiki)
 
 Das Bild ist eine SVG-Illustration, kein echter Browser-Screenshot. GitHub-HTML-Quellseiten werden erst nach erfolgreicher Webbereitstellung interaktiv ausgeführt.
 
