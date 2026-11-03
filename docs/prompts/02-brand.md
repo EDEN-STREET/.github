@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 02: Marken, Namen und Migration
+[![Visualisierte Workflow-Vorschau 02](../media/workflows/WF-02.svg)](../workflow.html?id=02)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=02)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
