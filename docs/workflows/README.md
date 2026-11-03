@@ -19,6 +19,8 @@
 6. Wirkliche Testbelege archivieren, PR und Review vorlegen.
 7. Nach Freigabe Versionen, Wiki und Diagramm synchronisieren.
 
+[**Statischer Testbericht mit GitHub-Actions-Nachweis**](../VALIDIERUNGSBERICHT-2026-11-03.md)
+
 ## Überprüfung
 
 ```bash
