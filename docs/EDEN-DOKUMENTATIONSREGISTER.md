@@ -1,4 +1,4 @@
-# EDEN Extended — Dokumentations- und PDF-Register
+# EDEN Suite — Dokumentations- und PDF-Register
 Stand 2026-11-03 · Status: im Aufbau
 
 ## Veröffentlichungsprinzip
@@ -6,7 +6,7 @@ Nichts entfernen, keine unbestätigten PDF-Links erfinden, keine privaten Daten 
 
 | Artefakt | Status | Referenz |
 |---|---|---|
-| EDEN Extended Masterplan | VERÖFFENTLICHT ALS ENTWURF | [Masterplan](EDEN-EXTENDED-MASTERPLAN.md) |
+| EDEN Suite Masterplan | VERÖFFENTLICHT ALS ENTWURF | [Masterplan](EDEN-EXTENDED-MASTERPLAN.md) |
 | LAPTOP-OS Haupt-README | VORHANDEN | [README](https://github.com/EDEN-STREET/LAPTOP-OS) |
 | LAPTOP-OS Wiki/Handbuch-Navigation | VORHANDEN | [Wiki/Handbuch](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/docs/WIKI_UND_HANDBUCH.md) |
 | Gate-5-Hardware-Preflight | ENTWURF | [Draft PR #9](https://github.com/EDEN-STREET/LAPTOP-OS/pull/9) |
