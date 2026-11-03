@@ -25,7 +25,7 @@ Eine historische Mudi-V2-PDF und weitere Router-Dokumente sind als Projektmateri
 GrapheneOS-Anleitungen sind als Projektmaterial vorhanden. **Noch keine öffentlich geprüfte eigenständige Mobile-Demo auf GitHub verifiziert.**
 
 ## Weitere historische Entwürfe aus Projektmaterial
-- **DkZ_NOUZ_Terminal_Demo.html**: separates HTML-Original mit dunkler Terminaloberfläche, Ghostty-/Zellij-/Herdr-Bezügen. Als Projektdatei verfügbar, aber nicht ungeprüft öffentlich kopiert. Die neue Markenbezeichnung ist **EDEN-Term**.
+- **DkZ_EDEN_Terminal_Demo.html**: separates HTML-Original mit dunkler Terminaloberfläche, Ghostty-/Zellij-/Herdr-Bezügen. Als Projektdatei verfügbar, aber nicht ungeprüft öffentlich kopiert. Die neue Markenbezeichnung ist **EDEN-Term**.
 - **EDEN Security Platform v0.2/v0.3**: historische Demo-/Builder-Pakete werden in den Projektunterlagen beschrieben; ihre vollständigen Originalarchive sind hier noch nicht als öffentliche, überprüfte GitHub-Dateien nachgewiesen.
 - **Mindmaps und Systemdiagramme** bezeichnen den Inhalt; die textbasierte Darstellung ist lediglich das Format.
 
