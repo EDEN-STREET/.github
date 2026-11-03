@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 03: Quellen, Versionen und Provenienz
+[![Visualisierte Workflow-Vorschau 03](../media/workflows/WF-03.svg)](../workflow.html?id=03)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=03)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
