@@ -1,0 +1,44 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EDEN Suite – Interaktive Konzept-Demo</title><style>
+:root{color-scheme:dark;--bg:#061314;--panel:#102525;--line:#31534d;--accent:#6ef1af;--text:#e6fff5;--muted:#a7c7bc}*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 70% -50%,#133c34,#061314 70%);color:var(--text);font:15px/1.55 system-ui,sans-serif}
+header{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;padding:16px 25px;border-bottom:1px solid var(--line)}.brand{color:var(--accent);font-weight:900;letter-spacing:.06em}main{max-width:1160px;margin:auto;padding:28px 20px 60px}
+h1{font-size:clamp(28px,4vw,50px);letter-spacing:-.035em;margin:6px 0}h2{font-size:21px}
+small,.muted{color:var(--muted)}.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:.16em;font-size:11px;font-weight:800}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:25px 0}
+.panel{border:1px solid var(--line);background:linear-gradient(150deg,#142c2a,#0e1d24);border-radius:15px;padding:20px}
+strong{color:#d5ffed}.kpi{font-size:26px;font-weight:800;color:var(--accent)}.pill{border:1px solid #967e44;color:#efcf8b;padding:4px 8px;border-radius:100px;display:inline-block;font-size:11px}
+.actions{display:flex;flex-wrap:wrap;gap:10px}.btn{cursor:pointer;background:#6df0ae;color:#073024;border:1px solid #6df0ae;border-radius:11px;padding:10px 16px;font:inherit;font-weight:800}
+.btn.secondary{background:#102b2c;color:#d9fff1;border-color:#467a69}.btn:focus-visible{outline:3px solid #9effdb;outline-offset:3px}
+.result{margin-top:18px;padding:15px;border-radius:12px;background:#0b191b;border:1px solid #395a4a;min-height:80px;white-space:pre-wrap}
+.field{display:block;margin:15px 0 10px;color:#b6d7ca}input,select{background:#071719;border:1px solid #5b8275;color:#eafff7;font:inherit;padding:10px;border-radius:8px;max-width:340px;width:100%}
+ol{padding-left:25px}.warning{border-left:4px solid #edc77b;padding:13px 15px;background:#262217;color:#ffe2aa;border-radius:7px;margin:18px 0}
+@media(max-width:750px){.grid{grid-template-columns:1fr}header{padding:13px}main{padding:20px 13px}}
+</style></head><body>
+<header><span class="brand">◆ EDEN STREET / EDEN Suite</span><span class="pill">KONZEPTDEMO · OFFLINE · KEINE GERÄTEVERBINDUNG</span></header>
+<main><span class="eyebrow" id="eyebrow">Projektstatus</span><h1 id="heading">EDEN Suite</h1><p class="muted" id="intro">Klickbarer Vorschauentwurf zur geplanten Benutzerführung.</p>
+<div class="grid" id="cards"></div>
+<section class="panel"><h2 id="taskTitle">Sicheres Demo-Labor</h2><p class="muted">Teste beispielhaft einen dokumentierten Workflow. Alle Werte sind lokal vorgegebene Demonstrationsdaten.</p>
+<label class="field" for="profile">Konfigurationsprofil</label><select id="profile"><option value="default">Standard – Übersicht</option><option value="privacy">Privacy – Konzept</option><option value="secure">Secure – Konzept</option><option value="custom">Custom – Beispiel</option></select>
+<div class="actions"><button class="btn secondary" id="check">1 · Demo-Preflight</button><button class="btn secondary" id="plan">2 · Vorschau</button><button class="btn" id="simulate">3 · Simulation testen</button><button class="btn secondary" id="reset">Zurücksetzen</button></div>
+<div class="result" id="result" role="status" aria-live="polite">Status: DEMO. Kein realer Gerätecheck ausgeführt.</div></section>
+<section><h2>Nächste Entwicklungsstufen</h2><ol id="roadmap"></ol></section>
+<div class="warning">Die Buttons verändern nur den Demo-Zustand im Browser. Sie installieren keine Firmware, prüfen keine reale Hardware und ändern keine Netzwerk- oder Betriebssystemeinstellungen.</div></main>
+<script>
+const data={
+router:{title:"EDEN ROUTER",sub:"Mudi V2 – Netzwerksicherheit und nachvollziehbare Konfiguration",kpis:[["Geräte","1 Modell im Plan"],["Firmware","zu verifizieren"],["Betriebsstatus","noch nicht verbunden"]],road:["Modell- und Firmwareinventar erstellen","Read-only Konfigurationsstatus mit Gerätenachweis","Backup- und Restore-Gates entwickeln","Firewall-, DNS-, VPN-Workflows mit Tests freigeben"]},
+mobile:{title:"EDEN MOBILE",sub:"Pixel / GrapheneOS – mobile Geräte und sichere Einrichtungswege",kpis:[["Geräteliste","offen"],["Betriebssystem","Version prüfen"],["Betriebsstatus","keine Installation"]],road:["Unterstützte Geräte und Versionen prüfen","Bedienung und Berechtigungsprofile dokumentieren","Backup und Recovery entwerfen","Testgerät und reale Nachweise freigeben"]},
+suite:{title:"EDEN Suite",sub:"Gemeinsamer Projektkern, Skills, Workflows, Dokumentation und Support",kpis:[["Arbeitsbereiche","17 dokumentiert"],["Demo-Module","vorhanden"],["Produktfreigabe","noch offen"]],road:["Modul- und Versionenregister finalisieren","Skills/Workflows an gemeinsame Schemas binden","Tests, Evidenz und Recovery automatisieren","Sicherheitsreview und reproduzierbaren Release-Prozess etablieren"]},
+academy:{title:"EDEN Academy",sub:"Begleitete Lernpfade und sichere simulationsbasierte Übungen",kpis:[["Lernpfade","in Planung"],["Übungen","Demo-Modus"],["Prüfung","konzeptionell"]],road:["Grundlagenkurse und Glossar anlegen","Einsteiger- und Expertenguides verknüpfen","Interaktive Simulationen mit Feedback","Lernnachweise mit Quellenstand prüfen"]}
+};
+const key=new URLSearchParams(location.search).get("surface");const config=data[key]||data.suite;
+document.title=config.title+" · EDEN Suite";document.getElementById("heading").textContent=config.title;document.getElementById("intro").textContent=config.sub;
+document.getElementById("cards").innerHTML=config.kpis.map(([a,b])=>'<div class="panel"><small>'+a+'</small><div class="kpi">'+b+'</div></div>').join("");
+document.getElementById("roadmap").innerHTML=config.road.map(x=>"<li>"+x+"</li>").join("");
+const output=document.getElementById("result");let phase=0;
+function set(text){output.textContent=text}
+document.getElementById("check").onclick=()=>{phase=1;set("DEMO PREFLIGHT: SIMULIERT\nProfil: "+document.getElementById("profile").value+"\nGerätedaten: keine\nErgebnis: NUR DEMO – reale Prüfung ausstehend.")};
+document.getElementById("plan").onclick=()=>{phase=2;set("DEMO-PLAN / TROCKENLAUF\n1. Inventarisieren (Musterwerte)\n2. Risiken dokumentieren\n3. Freigaben einholen\n4. Tests und Recovery planen\nEs wurden keine Systembefehle ausgeführt.")};
+document.getElementById("simulate").onclick=()=>{if(phase<2){set("BLOCKIERT (DEMO): Erst Demo-Preflight und Vorschau auswählen.");return}phase=3;set("SIMULATION ABGESCHLOSSEN\nDie Oberfläche hat nur ihren internen Musterzustand geändert.\nEchter Gerätezugriff: NEIN\nHardware-Prüfnachweis: NICHT VORHANDEN")};
+document.getElementById("reset").onclick=()=>{phase=0;set("Status: DEMO. Kein realer Gerätecheck ausgeführt.")};
+</script></body></html>
