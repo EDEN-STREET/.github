@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 01: Vision, Scope und Produktgrenzen
+[![Visualisierte Workflow-Vorschau 01](../media/workflows/WF-01.svg)](../workflow.html?id=01)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=01)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
