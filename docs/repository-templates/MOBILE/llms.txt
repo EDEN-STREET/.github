@@ -1,0 +1,19 @@
+# EDEN MOBILE – llms.txt
+
+> EDEN STREET / EDEN Suite · Gerätedomäne MOBILE · Dokumentations-/Demo-Status, Stand 2026-11-03
+
+## Einstieg
+- [Systemportal](https://github.com/EDEN-STREET/.github/blob/main/docs/index.html)
+- [Projektdokumentation](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/MOBILE.md)
+- [Workflow 11](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/11-mobile.md)
+- [Bereichsanweisung](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/mobile/llms.txt)
+- [Agenten und Workflows](https://github.com/EDEN-STREET/.github/blob/main/docs/AGENTEN-UND-WORKFLOWS.md)
+
+## Verpflichtende Arbeitsfolge
+1. Repositorystand und Hardwareversion read-only ermitteln.
+2. Gerätedaten sparsam und ohne persönliche Kennungen dokumentieren.
+3. Offizielle Hersteller-/OS-Quellen aktuell prüfen.
+4. Risiko, Backup, Recovery, Review und Tests voraussetzen.
+5. Keine privilegierten Geräte- oder Firmwareaktionen auf bloße Prompts hin.
+6. Änderungen auf Branch mit Tests, Diff und Rollback anbieten; keine automatischen Merges.
+7. Demo, Simulation und reale Verifikation strikt auseinanderhalten.
