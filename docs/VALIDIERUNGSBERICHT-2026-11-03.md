@@ -30,7 +30,7 @@ Die CI-Prüfung entstand auf einem **Draft PR**. Sie ist nicht automatisch eine 
 ## 3. Was geprüft wurde
 
 - Eindeutige Workflow-IDs und 17 Einträge im JSON-Manifest
-- Vorhandensein von Prompt, Diagramm, Preview und zugehöriger Bereichs-LMM-Anweisung
+- Vorhandensein von Prompt, Diagramm, Preview und zugehöriger Bereichs-LLM-Anweisung
 - `SIMULATION_ONLY` in allen öffentlichen Workflow-Registry-Einträgen
 - Vorhandensein der 15 Bereichs-READMEs, `llms.txt` und Vorschaudateien
 - Vorhandensein der erwarteten statischen historischen HTML-/CSS-/JS-Dateien
