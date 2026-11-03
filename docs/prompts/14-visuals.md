@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 14: Mindmaps, Diagramme und Visualisierung
+[![Visualisierte Workflow-Vorschau 14](../media/workflows/WF-14.svg)](../workflow.html?id=14)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=14)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
