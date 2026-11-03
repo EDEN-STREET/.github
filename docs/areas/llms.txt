@@ -1,0 +1,28 @@
+# EDEN Suite – Oberflächenbezogene llms.txt-Anweisungen
+
+> Zentrales Register für 15 eigenständige Benutzeroberflächen und ihre dokumentierten Arbeitskontexte; Stand 2026-11-03.
+
+## Bereichsanweisungen
+- [suite Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/suite/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/suite/llms.txt)
+- [terminal Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/terminal/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/terminal/llms.txt)
+- [laptop Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/laptop/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/laptop/llms.txt)
+- [router Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/router/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/router/llms.txt)
+- [mobile Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/mobile/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/mobile/llms.txt)
+- [wiki Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/wiki/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/wiki/llms.txt)
+- [handbuch Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/handbuch/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/handbuch/llms.txt)
+- [builder Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/builder/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/builder/llms.txt)
+- [academy Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/academy/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/academy/llms.txt)
+- [projects Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/projects/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/projects/llms.txt)
+- [setup Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/setup/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/setup/llms.txt)
+- [quellen Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/quellen/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/quellen/llms.txt)
+- [toolbox Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/toolbox/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/toolbox/llms.txt)
+- [grimoire Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/grimoire/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/grimoire/llms.txt)
+- [testlab Oberfläche](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/testlab/README.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/testlab/llms.txt)
+
+## Arbeitsvertrag
+Vor jeder Änderung Basis-Commit verifizieren; Simulation von echtem Test unterscheiden; vorhandene HTML-, CSS- und JS-Struktur schützen; Version, Diff, Tests und Rollback liefern. Keine unkontrollierten PR-Merges und keine Veränderungen an realen Geräten.
+
+## Weitere Referenzen
+- [Prompts](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/README.md)
+- [Workflow-Galerie](https://github.com/EDEN-STREET/.github/blob/main/docs/workflows.html)
+- [Agentenrollen](https://github.com/EDEN-STREET/.github/blob/main/docs/AGENTEN-UND-WORKFLOWS.md)
