@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 07: Builder, Skills und Datenmodelle
+[![Visualisierte Workflow-Vorschau 07](../media/workflows/WF-07.svg)](../workflow.html?id=07)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=07)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
