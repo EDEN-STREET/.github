@@ -31,3 +31,16 @@ In der geplanten Pages-Ansicht ist jede Demo als **DEMO – simulierte UI** mark
 
 ## Redaktionelle Regeln
 Jeder technische Artikel nennt Quelle, Stand, Status (Konzept/Demo/Verifiziert), Voraussetzungen, Fehlermöglichkeiten und sichere Rückkehr. Private Forschungs- und Geräteinformationen bleiben außerhalb des öffentlichen Wiki.
+
+
+## Visuelle Wiki- und Arbeitsablauf-Navigation
+
+[![EDEN Wiki – Vorschauillustration](media/previews/wiki.svg)](preview.html?surface=wiki)
+
+[![Workflow – Quellen und Versionen](media/workflows/WF-03.svg)](workflow.html?id=03)
+
+[![Workflow – Wiki, Handbuch und PDF](media/workflows/WF-08.svg)](workflow.html?id=08)
+
+**[Wiki-Demo (HTML-Quellansicht)](preview.html?surface=wiki)** · **[17-Workflow-Galerie](workflows.html)** · [Wiki-LLM-Einstieg](areas/wiki/llms.txt)
+
+Für die vollständige historisch beschriebene Handbuch-PDF ist weiterhin das überprüfte Original erforderlich; eine noch nicht vorhandene PDF wird weder künstlich eingebettet noch als veröffentlicht gekennzeichnet.
