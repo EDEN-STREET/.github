@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 15: Tests, Security und Release-Qualität
+[![Visualisierte Workflow-Vorschau 15](../media/workflows/WF-15.svg)](../workflow.html?id=15)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=15)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
