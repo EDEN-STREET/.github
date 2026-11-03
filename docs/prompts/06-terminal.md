@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 06: EDEN-Term und Dashboard
+[![Visualisierte Workflow-Vorschau 06](../media/workflows/WF-06.svg)](../workflow.html?id=06)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=06)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
