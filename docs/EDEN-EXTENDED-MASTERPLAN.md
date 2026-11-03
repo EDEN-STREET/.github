@@ -2,7 +2,7 @@
 Version 0.1.0 · 2026-11-03 · Status: Dokumentationsentwurf, nicht Produktfreigabe
 
 ## 1. Vision und Umfang
-EDEN vereint Wissensportal, Geräteinventar, geführte Konfiguration, reproduzierbare Skills, Workflow-Builder, Security Center, Support, Simulation Lab, Academy und Audit. LAPTOP-OS ist nur eine Teilstrecke. ROUTER (Mudi V2) und MOBILE/PIXEL sind eigene Domänen; eigenständige Repositories sind noch nicht bestätigt. DkZ™ Terminal ist der Zielname; NOUZ ist historisch.
+EDEN vereint Wissensportal, Geräteinventar, geführte Konfiguration, reproduzierbare Skills, Workflow-Builder, Security Center, Support, Simulation Lab, Academy und Audit. LAPTOP-OS ist nur eine Teilstrecke. ROUTER (Mudi V2) und MOBILE/PIXEL sind eigene Domänen; eigenständige Repositories sind noch nicht bestätigt. EDEN-Term ist der Zielname; EDEN-Term ist historisch.
 
 ## 2. Herkunft und Grenzen
 Aus den EDEN-Plattformplänen: Apps (Web/Desktop/Mobile), Services (API, Identity, Inventory, Workflow Engine, Policy Engine, Support, Audit), Agents (Windows/Linux/Router), Packages (Schemas/SDK/UI), Skills, Workflows, Profiles, Academy, Guides, Tests und Infrastruktur. Aus dem UX-Audit: gemeinsames Datenmodell für Guides, Fragebögen, Assistenten und Workflows; One-Click-Sicherheitsvertrag; Ist-/Soll-Trennung; Simulation niemals als echte Prüfung ausgeben. Dies sind Architekturziele, keine Behauptung vollständiger Implementierung.
@@ -12,7 +12,7 @@ Aus den EDEN-Plattformplänen: Apps (Web/Desktop/Mobile), Services (API, Identit
 EDEN
 +-- EXPERIENCE
 |   +-- Portal / Wiki / Handbuch / PDFs
-|   +-- Setup Wizard / DkZ Terminal
+|   +-- Setup Wizard / EDEN-Term
 |   +-- Academy / Support / Simulation Lab
 +-- PLATFORM
 |   +-- Identity / Policy / Inventory
@@ -83,7 +83,7 @@ DISCOVER (read-only)
 Die GitHub-Organisation EDEN-STREET ist das übergreifende Portal. Aktuell verifiziert: `EDEN-STREET/LAPTOP-OS` und `EDEN-STREET/.github`. Zusätzliche Repositories werden erst angelegt, wenn Modulgrenzen, Verantwortlichkeit und Versionsregeln feststehen. Bestehende Historie niemals überschreiben; Änderungen via Feature-Branch, Draft PR, Review, Tests und Freigabe.
 
 ## 10. Dokumentationsmatrix
-Jedes Modul erhält: 00-Überblick, 01-Schnellstart, 02-Grundlagen, 03-Architektur, 04-Setup, 05-Sicherheit, 06-Tests, 07-Fehlerbehebung, 08-Recovery, 09-API/Schemas, 10-FAQ, 11-Changelog, 12-Quellen, 13-PDF. Diagramme als ASCII plus barrierearme textuelle Beschreibung.
+Jedes Modul erhält: 00-Überblick, 01-Schnellstart, 02-Grundlagen, 03-Architektur, 04-Setup, 05-Sicherheit, 06-Tests, 07-Fehlerbehebung, 08-Recovery, 09-API/Schemas, 10-FAQ, 11-Changelog, 12-Quellen, 13-PDF. Diagramme als Textdiagramme plus barrierearme textuelle Beschreibung.
 
 ## 11. Umsetzung in kontrollierten Phasen
 P0: Inventar aller Quellen und Artefakte, Klassifizierung PUBLIC/PRIVATE, Herkunft und Versionsregister.
