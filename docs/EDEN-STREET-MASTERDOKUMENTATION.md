@@ -6,6 +6,14 @@
 
 > **Bestandsschutz:** Dieses Dokument ergänzt bestehende Projektquellen und Releases. Es behauptet weder eine vollständige Geräteinstallation noch eine Freigabe der historischen Handbuch-PDF.
 
+## Visuelle Einstiegskarte
+
+[![EDEN Suite Systemlandschaft](media/EDEN-SUITE-SYSTEMLANDSCHAFT.svg)](media/EDEN-SUITE-SYSTEMLANDSCHAFT.svg)
+
+[![Workflow-Galerie: 17 Bereiche](media/workflows/WF-17.svg)](workflows.html)
+
+[Oberflächengalerie mit Bildern](areas/README.md) · [Workflow-Galerie](workflows.html) · [Agenten](AGENTEN-UND-WORKFLOWS.md) · [Maschinenlesbares Register](workflows/manifest.json)
+
 ## 01 · Vision, Mission und Geltungsbereich
 EDEN STREET ist die Marke und GitHub-Organisation. EDEN Suite ist die gemeinsame Plattform für dokumentierte Geräteeinrichtung, Inventarisierung, reproduzierbare Sicherheits-Workflows, Wiki, Handbuch, Academy, Support, Builder, Audit und Visualisierung. EDEN LAPTOP-OS, EDEN ROUTER und EDEN MOBILE sind getrennte Gerätedomänen.
 
