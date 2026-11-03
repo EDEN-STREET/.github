@@ -1,0 +1,47 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EDEN Suite · Interaktive Projektvorschauen</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#071112;color:#edfdf4;font:15px/1.5 system-ui,Arial,sans-serif}
+header{border-bottom:1px solid #29483f;padding:15px 3%;display:flex;align-items:center;gap:20px;flex-wrap:wrap;justify-content:space-between;background:#0c1c1c}
+a{color:#8bd6f6}a:focus-visible,select:focus-visible{outline:3px solid #65fbb0;outline-offset:3px}header a{text-decoration:none}
+strong{color:#87ffb6}.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+select{font:inherit;background:#102727;color:#eefaf6;border:1px solid #5b8b7b;padding:9px 11px;border-radius:10px}
+main{padding:17px 3% 30px}.strap{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap;margin-bottom:13px}.strap h1{margin:0;font-size:22px}
+.note{color:#b6ccc3;font-size:13px}.label{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:#f4d297}
+.shell{border:1px solid #35695c;border-radius:15px;overflow:hidden;box-shadow:0 17px 55px #0008;background:#081b1a}
+.window{padding:9px 14px;background:#122829;border-bottom:1px solid #326155;display:flex;align-items:center;gap:8px;font-size:12px;color:#b3d5c7}
+.dot{width:10px;height:10px;border-radius:50%;background:#e5a08a}.dot:nth-child(2){background:#e5ce70}.dot:nth-child(3){background:#73dc9c}
+.window .path{margin-left:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+iframe{border:0;display:block;width:100%;height:max(610px,78vh);background:#070e11}
+.bottom{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:12px;font-size:13px;color:#a4c5bc}
+button{background:#73e9b0;border:0;color:#06251a;border-radius:8px;padding:10px 14px;font:inherit;font-weight:700;cursor:pointer}
+@media(max-width:600px){iframe{height:78vh}.controls{width:100%}select{width:100%}}
+</style></head><body>
+<header><a href="index.html"><strong>◆ EDEN STREET</strong> / EDEN Suite</a><div class="controls"><label for="surface">Vorschau:</label><select id="surface" aria-label="Demo-Oberfläche wechseln">
+<option value="terminal">EDEN-Term / Workbench</option><option value="wiki">EDEN Wiki</option><option value="handbuch">EDEN Handbuch</option><option value="builder">EDEN Builder</option><option value="projects">Projekte / Kanban</option><option value="setup">Setup</option><option value="quellen">Quellen</option><option value="toolbox">Toolbox</option><option value="grimoire">Grimoire</option><option value="testlab">Testlab</option><option value="router">EDEN ROUTER – Konzept</option><option value="mobile">EDEN MOBILE – Konzept</option><option value="suite">EDEN Suite – Konzept</option><option value="academy">EDEN Academy – Konzept</option>
+</select><a href="EDEN-DEMO-GALERIE.md">Demo-Dokumentation</a></div></header>
+<main><div class="strap"><div><div class="label" id="status">UI-Demo · Entwicklungsvorschau</div><h1 id="title">EDEN-Term</h1><div class="note">Nur zur Orientierung und zum Testen der Benutzerführung. Keine echten Geräteaktionen.</div></div>
+<div><button id="open" type="button">Einzelansicht öffnen ↗</button></div></div>
+<div class="shell"><div class="window"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="path" id="path">lokale statische Vorschau</span></div><iframe id="surfaceFrame" title="EDEN Suite Modulvorschau" loading="eager" referrerpolicy="no-referrer"></iframe></div>
+<div class="bottom"><span>Der ursprüngliche LAPTOP-OS-HTML-Bestand wurde als statische Vorschau kopiert. Router/Mobile sind bewusst eigenständige UI-Konzepte.</span><a href="prompts/13-previews.md">Workflow: Demo-Review</a></div></main>
+<script>
+const surfaces={
+terminal:["EDEN-Term / Workbench","legacy/index.html",true],
+wiki:["EDEN Wiki","legacy/wiki.html",true],
+handbuch:["EDEN Handbuch","legacy/handbuch.html",true],
+builder:["EDEN Builder","legacy/builder.html",true],
+projects:["Projekte / Kanban","legacy/projects.html",true],
+setup:["Geführte Einrichtung","legacy/setup.html",true],
+quellen:["EDEN Quellenübersicht","legacy/quellen.html",true],
+toolbox:["EDEN Toolbox","legacy/toolbox.html",true],
+grimoire:["EDEN Grimoire","legacy/grimoire.html",true],
+testlab:["EDEN Testlab","legacy/testlab.html",true],
+router:["EDEN ROUTER","concept-demo.html?surface=router",false],
+mobile:["EDEN MOBILE","concept-demo.html?surface=mobile",false],
+suite:["EDEN Suite","concept-demo.html?surface=suite",false],
+academy:["EDEN Academy","concept-demo.html?surface=academy",false]
+};
+const select=document.getElementById("surface"),frame=document.getElementById("surfaceFrame"),title=document.getElementById("title"),status=document.getElementById("status"),path=document.getElementById("path");
+function render(){const params=new URLSearchParams(location.search);const key=surfaces[params.get("surface")]?params.get("surface"):"terminal";const [name,src,existing]=surfaces[key];select.value=key;title.textContent=name;status.textContent=existing?"BESTEHENDE HTML-DEMO · KEIN PRODUKTIVBETRIEB":"KONZEPT-DEMO · SIMULIERT";frame.src=src;path.textContent=src;document.title=name+" · EDEN Suite";document.getElementById("open").onclick=()=>window.open(src,"_blank","noopener,noreferrer");}
+select.addEventListener("change",()=>{const u=new URL(location.href);u.searchParams.set("surface",select.value);history.replaceState({}, "", u);render()});window.addEventListener("popstate",render);render();
+</script></body></html>
