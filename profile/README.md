@@ -92,3 +92,7 @@ _Dies ist der übergreifende Projektindex. Weitere Repositories und das vollstä
 - **[Strukturatlas: Architektur, Erstanschluss, Sicherheitsgates und Datenflüsse](../docs/EDEN-Textdiagramm-ATLAS.md)**
 
 Die Suite-Dokumente ergänzen den vorhandenen Stand. Das vollständige historische PDF-Handbuch ist weiterhin **nicht als öffentliches Original verifiziert** und wird nicht durch eine unvollständige Neuerstellung ersetzt.
+
+## 🖥️ Demo-Oberflächen und Projektansichten
+
+**[EDEN Suite Demo-Galerie](../docs/EDEN-DEMO-GALERIE.md)** — vorhandene Workbench-, Wiki-, Handbuch-, Builder-, Kanban- und Setup-Oberflächen mit Zuordnung zum Gesamtprojekt bzw. LAPTOP-OS; Router und Mobile sind als noch nicht öffentlich verifizierte Demo-Strecken gekennzeichnet. Die verlinkten HTML-Dateien sind GitHub-Quellansichten, keine Live-Demos.
