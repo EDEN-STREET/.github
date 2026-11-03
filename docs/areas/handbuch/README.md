@@ -8,7 +8,7 @@
 
 [![EDEN Handbuch – skalierbare schematische Vorschau](../../media/previews/handbuch.svg)](../../preview.html?surface=handbuch)
 
-**[HTML-Vorschau öffnen](../../preview.html?surface=handbuch)**
+**[Interaktives Handbuchportal öffnen](../../wiki.html?tab=handbuch)** · [PDF-Status](../../wiki.html?tab=pdf) · [Historische Demo](../../preview.html?surface=handbuch)
 
 Das Bild ist eine SVG-Illustration, kein echter Browser-Screenshot. GitHub-HTML-Quellseiten werden erst nach erfolgreicher Webbereitstellung interaktiv ausgeführt.
 
