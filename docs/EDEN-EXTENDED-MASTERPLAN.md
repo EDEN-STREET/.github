@@ -1,6 +1,12 @@
 # EDEN Suite — Masterplan und Systemarchitektur
 Version 0.1.0 · 2026-11-03 · Status: Dokumentationsentwurf, nicht Produktfreigabe
 
+[![EDEN Suite Systemarchitektur](media/EDEN-SUITE-SYSTEMLANDSCHAFT.svg)](media/EDEN-SUITE-SYSTEMLANDSCHAFT.svg)
+
+[📘 17 Bereichsdokumentationen](EDEN-STREET-MASTERDOKUMENTATION.md) · [🔁 Alle Workflow-Bilder](workflows.html) · [🖥️ Alle Oberflächen](areas/README.md) · [📑 Datenmodell](workflows/manifest.json)
+
+[![EDEN Workflow mit Qualitätssicherung](media/EDEN-WORKFLOW-NACHWEISE.svg)](workflow.html?id=15)
+
 ## 1. Vision und Umfang
 EDEN vereint Wissensportal, Geräteinventar, geführte Konfiguration, reproduzierbare Skills, Workflow-Builder, Security Center, Support, Simulation Lab, Academy und Audit. LAPTOP-OS ist nur eine Teilstrecke. ROUTER (Mudi V2) und MOBILE/PIXEL sind eigene Domänen; eigenständige Repositories sind noch nicht bestätigt. EDEN-Term ist der Zielname; EDEN-Term ist historisch.
 
