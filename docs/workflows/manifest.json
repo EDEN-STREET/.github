@@ -1,0 +1,357 @@
+{
+  "schema_version": "0.1.0",
+  "project": "EDEN STREET / EDEN Suite",
+  "status": "DOCUMENTATION_ONLY",
+  "updated": "2026-11-03",
+  "description": "Workflow- und Prompt-Register. Keine automatisierte Ausführung oder Gerätefreigabe.",
+  "required_gates": [
+    "provenance",
+    "baseline_diff",
+    "privacy_review",
+    "negative_tests",
+    "rollback",
+    "human_review"
+  ],
+  "workflows": [
+    {
+      "id": "WF-01",
+      "slug": "strategy",
+      "area": "suite",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/01-strategy.md",
+      "visualization": "docs/media/workflows/WF-01.svg",
+      "preview": "docs/workflow.html?id=01",
+      "area_guidance": "docs/areas/suite/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-02",
+      "slug": "brand",
+      "area": "suite",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/02-brand.md",
+      "visualization": "docs/media/workflows/WF-02.svg",
+      "preview": "docs/workflow.html?id=02",
+      "area_guidance": "docs/areas/suite/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-03",
+      "slug": "provenance",
+      "area": "wiki",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/03-provenance.md",
+      "visualization": "docs/media/workflows/WF-03.svg",
+      "preview": "docs/workflow.html?id=03",
+      "area_guidance": "docs/areas/wiki/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-04",
+      "slug": "sync",
+      "area": "projects",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/04-sync.md",
+      "visualization": "docs/media/workflows/WF-04.svg",
+      "preview": "docs/workflow.html?id=04",
+      "area_guidance": "docs/areas/projects/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-05",
+      "slug": "architecture",
+      "area": "suite",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/05-architecture.md",
+      "visualization": "docs/media/workflows/WF-05.svg",
+      "preview": "docs/workflow.html?id=05",
+      "area_guidance": "docs/areas/suite/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-06",
+      "slug": "terminal",
+      "area": "terminal",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/06-terminal.md",
+      "visualization": "docs/media/workflows/WF-06.svg",
+      "preview": "docs/workflow.html?id=06",
+      "area_guidance": "docs/areas/terminal/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-07",
+      "slug": "builder",
+      "area": "builder",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/07-builder.md",
+      "visualization": "docs/media/workflows/WF-07.svg",
+      "preview": "docs/workflow.html?id=07",
+      "area_guidance": "docs/areas/builder/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-08",
+      "slug": "knowledge",
+      "area": "wiki",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/08-knowledge.md",
+      "visualization": "docs/media/workflows/WF-08.svg",
+      "preview": "docs/workflow.html?id=08",
+      "area_guidance": "docs/areas/wiki/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-09",
+      "slug": "laptop",
+      "area": "laptop",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/09-laptop.md",
+      "visualization": "docs/media/workflows/WF-09.svg",
+      "preview": "docs/workflow.html?id=09",
+      "area_guidance": "docs/areas/laptop/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-10",
+      "slug": "router",
+      "area": "router",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/10-router.md",
+      "visualization": "docs/media/workflows/WF-10.svg",
+      "preview": "docs/workflow.html?id=10",
+      "area_guidance": "docs/areas/router/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-11",
+      "slug": "mobile",
+      "area": "mobile",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/11-mobile.md",
+      "visualization": "docs/media/workflows/WF-11.svg",
+      "preview": "docs/workflow.html?id=11",
+      "area_guidance": "docs/areas/mobile/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-12",
+      "slug": "bootstrap",
+      "area": "setup",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/12-bootstrap.md",
+      "visualization": "docs/media/workflows/WF-12.svg",
+      "preview": "docs/workflow.html?id=12",
+      "area_guidance": "docs/areas/setup/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-13",
+      "slug": "previews",
+      "area": "terminal",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/13-previews.md",
+      "visualization": "docs/media/workflows/WF-13.svg",
+      "preview": "docs/workflow.html?id=13",
+      "area_guidance": "docs/areas/terminal/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-14",
+      "slug": "visuals",
+      "area": "suite",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/14-visuals.md",
+      "visualization": "docs/media/workflows/WF-14.svg",
+      "preview": "docs/workflow.html?id=14",
+      "area_guidance": "docs/areas/suite/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-15",
+      "slug": "quality",
+      "area": "testlab",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/15-quality.md",
+      "visualization": "docs/media/workflows/WF-15.svg",
+      "preview": "docs/workflow.html?id=15",
+      "area_guidance": "docs/areas/testlab/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-16",
+      "slug": "github",
+      "area": "projects",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/16-github.md",
+      "visualization": "docs/media/workflows/WF-16.svg",
+      "preview": "docs/workflow.html?id=16",
+      "area_guidance": "docs/areas/projects/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    },
+    {
+      "id": "WF-17",
+      "slug": "handoff",
+      "area": "suite",
+      "status": "DESIGN",
+      "execution_mode": "SIMULATION_ONLY",
+      "version": "0.1.0",
+      "prompt": "docs/prompts/17-handoff.md",
+      "visualization": "docs/media/workflows/WF-17.svg",
+      "preview": "docs/workflow.html?id=17",
+      "area_guidance": "docs/areas/suite/llms.txt",
+      "required_gates": [
+        "provenance",
+        "baseline_diff",
+        "privacy_review",
+        "negative_tests",
+        "rollback",
+        "human_review"
+      ]
+    }
+  ]
+}
