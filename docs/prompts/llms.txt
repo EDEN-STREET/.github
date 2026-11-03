@@ -1,0 +1,31 @@
+# EDEN Suite – 17 isolierbare Agenten-/Workflow-Aufträge
+
+> Jeder Workflow hat ein eigenes versioniertes Prompt-Dokument und visuelles Ablaufmodell. Die Texte sind Arbeitsanweisungen, keine Freigabe für privilegierte Systemaktionen.
+
+## Aufträge
+- [Workflow 01](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/01-strategy.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-01.svg)
+- [Workflow 02](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/02-brand.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-02.svg)
+- [Workflow 03](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/03-provenance.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-03.svg)
+- [Workflow 04](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/04-sync.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-04.svg)
+- [Workflow 05](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/05-architecture.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-05.svg)
+- [Workflow 06](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/06-terminal.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-06.svg)
+- [Workflow 07](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/07-builder.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-07.svg)
+- [Workflow 08](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/08-knowledge.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-08.svg)
+- [Workflow 09](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/09-laptop.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-09.svg)
+- [Workflow 10](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/10-router.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-10.svg)
+- [Workflow 11](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/11-mobile.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-11.svg)
+- [Workflow 12](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/12-bootstrap.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-12.svg)
+- [Workflow 13](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/13-previews.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-13.svg)
+- [Workflow 14](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/14-visuals.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-14.svg)
+- [Workflow 15](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/15-quality.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-15.svg)
+- [Workflow 16](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/16-github.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-16.svg)
+- [Workflow 17](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/17-handoff.md) · [Diagramm](https://github.com/EDEN-STREET/.github/blob/main/docs/media/workflows/WF-17.svg)
+
+## Mindestprozess
+Discovery → Plan → Schutzprüfung → Branch → Tests → Review → dokumentierte Entscheidung. Reale Erfolgsbehauptungen nur bei echten Nachweisen. Konkurrierende Entwicklungsstände müssen vor dem Merge verglichen werden.
+
+## Statusdaten
+Eingaben: Repo, Commit-SHA, Datenklasse, Versionsstand, Freigabeumfang, Testkriterien. Ausgaben: Diff, Testbelege, Risikoliste, Rollback, Review-Vermerk.
+
+## Referenzen
+[17 Arbeitsaufträge](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/README.md) · [Bedienungsanleitung](https://github.com/EDEN-STREET/.github/blob/main/docs/SKILLS-UND-BEDIENUNG.md)
