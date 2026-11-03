@@ -1,6 +1,10 @@
 # EDEN Wiki – öffentliches Wissensportal
 
-[🌿 EDEN STREET](https://github.com/EDEN-STREET) · [📘 Masterdokumentation – 17 Bereiche](EDEN-STREET-MASTERDOKUMENTATION.md) · [🖥️ Vorschauportal](index.html) · [📑 Dokumentenregister](EDEN-DOKUMENTATIONSREGISTER.md)
+[🌿 EDEN STREET](https://github.com/EDEN-STREET) · [🖥️ Interaktives Wiki](wiki.html) · [📘 Masterdokumentation – 17 Bereiche](EDEN-STREET-MASTERDOKUMENTATION.md) · [🖥️ Vorschauportal](index.html) · [📑 Dokumentenregister](EDEN-DOKUMENTATIONSREGISTER.md)
+
+[![EDEN Wiki – HTML-Portal mit Handbuchtab](media/previews/wiki.svg)](wiki.html)
+
+**[Wiki als HTML öffnen](wiki.html?tab=wiki)** · [Handbuchtab](wiki.html?tab=handbuch) · [PDF-Status](wiki.html?tab=pdf)
 
 ## Inhaltsverzeichnis
 | Bereich | Verfügbarkeit |
