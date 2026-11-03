@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 05: Systemarchitektur und Modulgrenzen
+[![Visualisierte Workflow-Vorschau 05](../media/workflows/WF-05.svg)](../workflow.html?id=05)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=05)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
