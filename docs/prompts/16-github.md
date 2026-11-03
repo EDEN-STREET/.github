@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 16: Issues, PRs und Governance
+[![Visualisierte Workflow-Vorschau 16](../media/workflows/WF-16.svg)](../workflow.html?id=16)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=16)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
