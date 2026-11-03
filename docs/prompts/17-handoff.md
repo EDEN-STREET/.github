@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 17: Übergabe, Agentenkoordination und Reproduzierbarkeit
+[![Visualisierte Workflow-Vorschau 17](../media/workflows/WF-17.svg)](../workflow.html?id=17)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=17)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
