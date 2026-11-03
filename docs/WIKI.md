@@ -12,13 +12,13 @@
 | [Gesamtdokumentation in 17 Bereichen](EDEN-STREET-MASTERDOKUMENTATION.md) | Öffentlich als Markdown |
 | [EDEN Suite Masterplan](EDEN-EXTENDED-MASTERPLAN.md) | Öffentlich als Markdown |
 | [Mindmaps und Systemarchitektur](EDEN-ASCII-ATLAS.md) | Textpläne vorhanden, SVG-Ansichten ergänzt |
-| [Interaktive Demo-Galerie](EDEN-DEMO-GALERIE.md) | Demo-Dateien vorbereitet; öffentliche URL hängt von Pages ab |
+| [Interaktive Demo-Galerie](EDEN-DEMO-GALERIE.md) | Demo-Dateien vorhanden; GitHub-Pages-Deployment erfolgreich, UI-Tests gesondert abgenommen |
 | [Handbuch- und PDF-Register](EDEN-DOKUMENTATIONSREGISTER.md) | Original-Volltext noch offen |
 | [LAPTOP-OS Handbuchstruktur](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/docs/WIKI_UND_HANDBUCH.md) | Öffentlich |
 | [ROUTER Projektstand](projects/ROUTER.md) | Vorbereitete Projektübersicht |
 | [MOBILE Projektstand](projects/MOBILE.md) | Vorbereitete Projektübersicht |
 
-## Historisches Handbuch (110+ Seiten)
+## Historische Handbuchversionen und öffentliche Freigabe
 **Noch nicht eingebettet:** Die echte Original-PDF konnte im verifizierbaren Projektbestand nicht gefunden werden. Die einzige derzeit in dieser Bearbeitung vorliegende PDF mit klarer Kennung `MUDI V2` hat **10 Seiten**, betrifft den Router und ist kein Ersatz für das EDEN-Gesamthandbuch.
 
 Nach Erhalt des Originals:
@@ -48,3 +48,7 @@ Jeder technische Artikel nennt Quelle, Stand, Status (Konzept/Demo/Verifiziert),
 **[Wiki-Demo (HTML-Quellansicht)](preview.html?surface=wiki)** · **[17-Workflow-Galerie](workflows.html)** · [Wiki-LLM-Einstieg](areas/wiki/llms.txt)
 
 Für die vollständige historisch beschriebene Handbuch-PDF ist weiterhin das überprüfte Original erforderlich; eine noch nicht vorhandene PDF wird weder künstlich eingebettet noch als veröffentlicht gekennzeichnet.
+
+
+## Reproduzierbarer Browsernachweis
+Der [Browser-QA-Lauf vom 03.11.2026](https://github.com/EDEN-STREET/.github/actions/runs/41693277048) hat **38/38 Checks erfolgreich** abgeschlossen und 11 Screenshots als Actions-Artefakte erstellt. Das betrifft UI-Routen und Simulationen, keine Hardware- oder PDF-Veröffentlichungsfreigabe.

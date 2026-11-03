@@ -1,0 +1,59 @@
+name: EDEN Suite browser visual QA
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'qa/**'
+      - 'scripts/**'
+      - '.github/workflows/portal-browser-qa.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'qa/**'
+      - '.github/workflows/portal-browser-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  browser-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout exact source revision
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify 17 workflows, SVG, and internal link targets
+        run: python3 scripts/check_portal.py
+      - name: Install pinned Playwright runtime
+        working-directory: qa
+        run: npm install --no-audit --no-fund --package-lock=false --ignore-scripts
+      - name: Install Chromium and system dependencies
+        working-directory: qa
+        run: npx playwright install --with-deps chromium
+      - name: Start read-only static portal on localhost
+        run: |
+          python3 -m http.server 8766 --directory docs > /tmp/eden-portal-http.log 2>&1 &
+          sleep 2
+          curl --fail http://127.0.0.1:8766/index.html >/dev/null
+      - name: Render, interact and capture screenshots
+        working-directory: qa
+        env:
+          EDEN_SITE_BASE: http://127.0.0.1:8766/
+        run: npm run test:e2e
+      - name: Upload real screenshot and JSON evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eden-suite-browser-qa-${{ github.run_id }}
+          path: |
+            qa/artifacts/
+            /tmp/eden-portal-http.log
+          if-no-files-found: warn
+          retention-days: 14

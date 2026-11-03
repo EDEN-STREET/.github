@@ -1,5 +1,7 @@
 # EDEN MOBILE — Oberfläche, Vorschau und Arbeitsanleitung
 
+**[Eigenständiges öffentliches EDEN MOBILE Repository](https://github.com/EDEN-STREET/MOBILE)** · [Suite Portal](../../index.html)
+
 [← Gesamtprojekt](../../index.html) · [Alle Oberflächen](../README.md) · [Alle Workflows](../../workflows.html) · [Assistenten-Anweisungen](llms.txt)
 
 **Zustand:** KONZEPT / interaktive Simulation · **Keine reale Geräteaktion.**

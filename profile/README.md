@@ -13,12 +13,12 @@
 
 ### 🖥️ Projektvorschauen
 
-**Die Bilder sind skalierbare, beschriftete Illustrationen und keine echten Browser-Screenshots.** Zum Ausführen der HTML-Seiten muss GitHub Pages für das Portal eingerichtet sein; Quelltextlinks allein starten keine Live-App.
+**Die Bilder sind skalierbare, beschriftete Illustrationen und keine echten Browser-Screenshots.** GitHub Pages ist laut [erfolgreichem Deployment](https://github.com/EDEN-STREET/.github/actions/runs/41690248279) eingerichtet; Quelltextlinks starten keine Live-App. Unabhängige Browser-Abnahme erfolgt separat.
 
 | LAPTOP-OS | ROUTER | MOBILE |
 |---|---|---|
 | [![LAPTOP-OS Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/laptop.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [![ROUTER Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/router.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [![MOBILE Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/mobile.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) |
-| [Repository](https://github.com/EDEN-STREET/LAPTOP-OS) · [UI-Quellansicht](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [Planungsstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/ROUTER.md) · [Konzept-Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/concept-demo.html) | [Planungsstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/MOBILE.md) · [Konzept-Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/concept-demo.html) |
+| [Repository](https://github.com/EDEN-STREET/LAPTOP-OS) · [UI-Quellansicht](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [Repository](https://github.com/EDEN-STREET/ROUTER) · [Planungsstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/ROUTER.md) · [Konzept-Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/concept-demo.html) | [Repository](https://github.com/EDEN-STREET/MOBILE) · [Planungsstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/MOBILE.md) · [Konzept-Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/concept-demo.html) |
 
 | EDEN-Term | Builder | Wiki |
 |---|---|---|
@@ -32,7 +32,7 @@
 | [![Synchronisierung](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/workflows/WF-04.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/workflow.html) | [![Bootstrap](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/workflows/WF-12.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/workflow.html) | [![QA](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/workflows/WF-15.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/workflow.html) |
 | [Arbeitsauftrag 04](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/04-sync.md) | [Arbeitsauftrag 12](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/12-bootstrap.md) | [Arbeitsauftrag 15](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/15-quality.md) |
 
-**[Statischer QA-Bericht: 17 Workflows, 37 SVG, 739 Links](https://github.com/EDEN-STREET/.github/blob/main/docs/VALIDIERUNGSBERICHT-2026-11-03.md)** · **[Alle 17 Workflows mit Einzelgrafiken und Anleitungen](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/README.md)** · **[Demo-Galerie](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DEMO-GALERIE.md)** · **[GitHub-Pages-Bereitstellung](https://github.com/EDEN-STREET/.github/blob/main/docs/PAGES-UND-REPOSITORIES.md)**
+**[Öffentliches EDEN Suite Portal](https://eden-street.github.io/.github/)** · **[Statischer QA-Bericht: 17 Workflows, 37 SVG, 739 Links](https://github.com/EDEN-STREET/.github/blob/main/docs/VALIDIERUNGSBERICHT-2026-11-03.md)** · **[Alle 17 Workflows mit Einzelgrafiken und Anleitungen](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/README.md)** · **[Demo-Galerie](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DEMO-GALERIE.md)** · **[GitHub-Pages-Bereitstellung](https://github.com/EDEN-STREET/.github/blob/main/docs/PAGES-UND-REPOSITORIES.md)**
 
 [![EDEN Suite Systemlandschaft](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/EDEN-SUITE-SYSTEMLANDSCHAFT.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-ASCII-ATLAS.md)
 
@@ -76,7 +76,7 @@
 ## 🧱 Projektbereiche
 
 - **LAPTOP-OS:** Qubes/Whonix als Zielarchitektur; Windows-Preflight und nicht-destruktiver npm-Starter als Ausgangspunkt. [Repository](https://github.com/EDEN-STREET/LAPTOP-OS).
-- **ROUTER:** Geplante separate Geräte- und Konfigurationsstrecke für Mudi V2; noch kein eigenständiges Repository bestätigt.
+- **ROUTER:** Öffentliches [Repository](https://github.com/EDEN-STREET/ROUTER); Mudi-V2-Gerätestrecke in Planung, keine realen Geräteaktionen.
 - **PIXEL/MOBILE:** Geplante mobile Strecke; noch kein eigenständiges Repository bestätigt.
 - **Plattformkern:** Vorgesehene Dienste für Inventar, Workflows, Richtlinien, Audit und Support; Architekturkonzept, nicht vollständig implementiert.
 - **Academy / Handbuch / Wiki:** Lernpfade vom Einstieg bis zur technischen Vertiefung; vollständige PDF-Ausgabe noch zu verifizieren.
