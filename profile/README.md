@@ -1,4 +1,44 @@
-# 🌿 EDEN — Projektübersicht
+# 🌿 EDEN STREET — EDEN Suite
+
+**Modulare, nachvollziehbar entwickelte Plattform für Geräteeinrichtung, Automatisierung, Wissensmanagement und Sicherheit.**
+
+> **Projektstatus: Entwicklung und Demo.** Installationen, Router- oder Smartphoneänderungen werden durch diese Vorschauen **nicht** durchgeführt. Jede reale technische Prüfung und jede Freigabe ist gesondert nachzuweisen.
+
+### 🧭 Navigation
+
+| 📁 Repositories | 📘 Dokumentation | 📚 Wiki | 🖥️ Demos | 🔁 Workflows | 🗺️ Mindmaps |
+|---|---|---|---|---|---|
+| [Alle Projekte](https://github.com/EDEN-STREET?tab=repositories) | [17 Bereiche](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-STREET-MASTERDOKUMENTATION.md) | [Wiki-Portal](https://github.com/EDEN-STREET/.github/blob/main/docs/WIKI.md) | [Vorschaubilder](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DEMO-GALERIE.md) | [17 visuelle Abläufe](https://github.com/EDEN-STREET/.github/blob/main/docs/workflows.html) | [Strukturatlas](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-ASCII-ATLAS.md) |
+| [LAPTOP-OS](https://github.com/EDEN-STREET/LAPTOP-OS) | [Prompt-/Skill-Katalog](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/README.md) | [PDF-Status](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DOKUMENTATIONSREGISTER.md) | [HTML-Portal-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/index.html) | [Agenten & Rollen](https://github.com/EDEN-STREET/.github/blob/main/docs/AGENTEN-UND-WORKFLOWS.md) | [SVG-Quellen](https://github.com/EDEN-STREET/.github/blob/main/docs/media/EDEN-SUITE-SYSTEMLANDSCHAFT.svg) |
+
+### 🖥️ Projektvorschauen
+
+**Die Bilder sind skalierbare, beschriftete Illustrationen und keine echten Browser-Screenshots.** Zum Ausführen der HTML-Seiten muss GitHub Pages für das Portal eingerichtet sein; Quelltextlinks allein starten keine Live-App.
+
+| LAPTOP-OS | ROUTER | MOBILE |
+|---|---|---|
+| [![LAPTOP-OS Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/laptop.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [![ROUTER Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/router.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [![MOBILE Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/mobile.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) |
+| [Repository](https://github.com/EDEN-STREET/LAPTOP-OS) · [UI-Quellansicht](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [Planungsstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/ROUTER.md) · [Konzept-Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/concept-demo.html) | [Planungsstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/MOBILE.md) · [Konzept-Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/concept-demo.html) |
+
+| EDEN-Term | Builder | Wiki |
+|---|---|---|
+| [![EDEN-Term Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/terminal.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [![Builder Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/builder.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [![Wiki Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/wiki.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) |
+| [Workbench Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/legacy/index.html) | [Builder Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/legacy/builder.html) | [Wiki Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/legacy/wiki.html) |
+
+### 🔁 Workflow- und Installationsansichten
+
+| Bestand synchronisieren | Universal Setup | Qualitätsprüfung |
+|---|---|---|
+| [![Synchronisierung](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/workflows/WF-04.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/workflow.html) | [![Bootstrap](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/workflows/WF-12.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/workflow.html) | [![QA](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/workflows/WF-15.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/workflow.html) |
+| [Arbeitsauftrag 04](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/04-sync.md) | [Arbeitsauftrag 12](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/12-bootstrap.md) | [Arbeitsauftrag 15](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/15-quality.md) |
+
+**[Alle 17 Workflows mit Einzelgrafiken und Anleitungen](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/README.md)** · **[Demo-Galerie](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DEMO-GALERIE.md)** · **[GitHub-Pages-Bereitstellung](https://github.com/EDEN-STREET/.github/blob/main/docs/PAGES-UND-REPOSITORIES.md)**
+
+[![EDEN Suite Systemlandschaft](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/EDEN-SUITE-SYSTEMLANDSCHAFT.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-ASCII-ATLAS.md)
+
+---
+
+## Historische Projektübersicht (zur Nachvollziehbarkeit)
 
 **EDEN** ist ein modulares, dokumentationsorientiertes Plattformprojekt für Geräteinventar, sichere Konfiguration, nachvollziehbare Workflows, Lernmaterial und Support. **Status: Entwicklung / Vorschau.** Konzept, Implementierung und real getestete Funktionen sind getrennt zu betrachten.
 
@@ -40,7 +80,7 @@
 - **PIXEL/MOBILE:** Geplante mobile Strecke; noch kein eigenständiges Repository bestätigt.
 - **Plattformkern:** Vorgesehene Dienste für Inventar, Workflows, Richtlinien, Audit und Support; Architekturkonzept, nicht vollständig implementiert.
 - **Academy / Handbuch / Wiki:** Lernpfade vom Einstieg bis zur technischen Vertiefung; vollständige PDF-Ausgabe noch zu verifizieren.
-- **EDEN-Term:** Gewünschter aktueller Name der Terminal-Oberfläche. In bestehendem Quellcode und README kann noch der historische Name EDEN-Term vorkommen.
+- **EDEN-Term:** Gewünschter aktueller Name der Terminal-Oberfläche. In technischen Altdaten können abweichende interne Kennungen vorkommen; öffentlich heißt die Oberfläche EDEN-Term.
 
 ## 🔄 Reproduzierbarer Workflow
 
@@ -87,12 +127,12 @@ _Dies ist der übergreifende Projektindex. Weitere Repositories und das vollstä
 
 ## 📚 EDEN Suite — Vollständige Dokumentationsstruktur
 
-- **[EDEN Suite Masterplan: Gesamtarchitektur, Module, Skills, Workflows, Sicherheit und Roadmap](../docs/EDEN-EXTENDED-MASTERPLAN.md)**
-- **[Dokumentations- und PDF-Register: Quellen, Versionen und Veröffentlichungsstatus](../docs/EDEN-DOKUMENTATIONSREGISTER.md)**
-- **[Strukturatlas: Architektur, Erstanschluss, Sicherheitsgates und Datenflüsse](../docs/EDEN-Textdiagramm-ATLAS.md)**
+- **[EDEN Suite Masterplan: Gesamtarchitektur, Module, Skills, Workflows, Sicherheit und Roadmap](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-EXTENDED-MASTERPLAN.md)**
+- **[Dokumentations- und PDF-Register: Quellen, Versionen und Veröffentlichungsstatus](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DOKUMENTATIONSREGISTER.md)**
+- **[Strukturatlas: Architektur, Erstanschluss, Sicherheitsgates und Datenflüsse](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-ASCII-ATLAS.md)**
 
 Die Suite-Dokumente ergänzen den vorhandenen Stand. Das vollständige historische PDF-Handbuch ist weiterhin **nicht als öffentliches Original verifiziert** und wird nicht durch eine unvollständige Neuerstellung ersetzt.
 
 ## 🖥️ Demo-Oberflächen und Projektansichten
 
-**[EDEN Suite Demo-Galerie](../docs/EDEN-DEMO-GALERIE.md)** — vorhandene Workbench-, Wiki-, Handbuch-, Builder-, Kanban- und Setup-Oberflächen mit Zuordnung zum Gesamtprojekt bzw. LAPTOP-OS; Router und Mobile sind als noch nicht öffentlich verifizierte Demo-Strecken gekennzeichnet. Die verlinkten HTML-Dateien sind GitHub-Quellansichten, keine Live-Demos.
+**[EDEN Suite Demo-Galerie](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DEMO-GALERIE.md)** — vorhandene Workbench-, Wiki-, Handbuch-, Builder-, Kanban- und Setup-Oberflächen mit Zuordnung zum Gesamtprojekt bzw. LAPTOP-OS; Router und Mobile sind als noch nicht öffentlich verifizierte Demo-Strecken gekennzeichnet. Die verlinkten HTML-Dateien sind GitHub-Quellansichten, keine Live-Demos.
