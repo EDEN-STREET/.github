@@ -4,6 +4,32 @@
 
 [Jede Aufgabe besitzt einen eigenen Prompt, Agentenrollen, Arbeitsschritte, Testgates und Ergebnisvertrag.](../EDEN-STREET-MASTERDOKUMENTATION.md)
 
+## Alle 17 Bereiche mit Vorschau
+
+Die Miniaturen sind **prozessbezogene SVG-Illustrationen**. Ein Klick auf die Grafik führt zur Schritt-für-Schritt-Demo; für öffentliche Bedienung muss das HTML über einen Webhost (z. B. GitHub Pages) ausgeliefert werden.
+
+| Vorschau | Bereich | Prompt und Bedienungsanweisung |
+|---|---|---|
+| [<img src="../media/workflows/WF-01.svg" alt="Vorschau Workflow 01" width="300">](../workflow.html?id=01) | **01 – Strategie** · [interaktive Ansicht](../workflow.html?id=01) | [Arbeitsauftrag 01](01-strategy.md) |
+| [<img src="../media/workflows/WF-02.svg" alt="Vorschau Workflow 02" width="300">](../workflow.html?id=02) | **02 – Namen & Migration** · [interaktive Ansicht](../workflow.html?id=02) | [Arbeitsauftrag 02](02-brand.md) |
+| [<img src="../media/workflows/WF-03.svg" alt="Vorschau Workflow 03" width="300">](../workflow.html?id=03) | **03 – Quellen und Provenienz** · [interaktive Ansicht](../workflow.html?id=03) | [Arbeitsauftrag 03](03-provenance.md) |
+| [<img src="../media/workflows/WF-04.svg" alt="Vorschau Workflow 04" width="300">](../workflow.html?id=04) | **04 – GitHub-/Lokal-Sync** · [interaktive Ansicht](../workflow.html?id=04) | [Arbeitsauftrag 04](04-sync.md) |
+| [<img src="../media/workflows/WF-05.svg" alt="Vorschau Workflow 05" width="300">](../workflow.html?id=05) | **05 – Systemarchitektur** · [interaktive Ansicht](../workflow.html?id=05) | [Arbeitsauftrag 05](05-architecture.md) |
+| [<img src="../media/workflows/WF-06.svg" alt="Vorschau Workflow 06" width="300">](../workflow.html?id=06) | **06 – EDEN-Term** · [interaktive Ansicht](../workflow.html?id=06) | [Arbeitsauftrag 06](06-terminal.md) |
+| [<img src="../media/workflows/WF-07.svg" alt="Vorschau Workflow 07" width="300">](../workflow.html?id=07) | **07 – Builder und Skills** · [interaktive Ansicht](../workflow.html?id=07) | [Arbeitsauftrag 07](07-builder.md) |
+| [<img src="../media/workflows/WF-08.svg" alt="Vorschau Workflow 08" width="300">](../workflow.html?id=08) | **08 – Wiki, Handbuch, PDF** · [interaktive Ansicht](../workflow.html?id=08) | [Arbeitsauftrag 08](08-knowledge.md) |
+| [<img src="../media/workflows/WF-09.svg" alt="Vorschau Workflow 09" width="300">](../workflow.html?id=09) | **09 – LAPTOP-OS** · [interaktive Ansicht](../workflow.html?id=09) | [Arbeitsauftrag 09](09-laptop.md) |
+| [<img src="../media/workflows/WF-10.svg" alt="Vorschau Workflow 10" width="300">](../workflow.html?id=10) | **10 – ROUTER** · [interaktive Ansicht](../workflow.html?id=10) | [Arbeitsauftrag 10](10-router.md) |
+| [<img src="../media/workflows/WF-11.svg" alt="Vorschau Workflow 11" width="300">](../workflow.html?id=11) | **11 – MOBILE** · [interaktive Ansicht](../workflow.html?id=11) | [Arbeitsauftrag 11](11-mobile.md) |
+| [<img src="../media/workflows/WF-12.svg" alt="Vorschau Workflow 12" width="300">](../workflow.html?id=12) | **12 – Universal Bootstrap** · [interaktive Ansicht](../workflow.html?id=12) | [Arbeitsauftrag 12](12-bootstrap.md) |
+| [<img src="../media/workflows/WF-13.svg" alt="Vorschau Workflow 13" width="300">](../workflow.html?id=13) | **13 – HTML-Demos** · [interaktive Ansicht](../workflow.html?id=13) | [Arbeitsauftrag 13](13-previews.md) |
+| [<img src="../media/workflows/WF-14.svg" alt="Vorschau Workflow 14" width="300">](../workflow.html?id=14) | **14 – Mindmaps und Diagramme** · [interaktive Ansicht](../workflow.html?id=14) | [Arbeitsauftrag 14](14-visuals.md) |
+| [<img src="../media/workflows/WF-15.svg" alt="Vorschau Workflow 15" width="300">](../workflow.html?id=15) | **15 – Test und Security** · [interaktive Ansicht](../workflow.html?id=15) | [Arbeitsauftrag 15](15-quality.md) |
+| [<img src="../media/workflows/WF-16.svg" alt="Vorschau Workflow 16" width="300">](../workflow.html?id=16) | **16 – GitHub Governance** · [interaktive Ansicht](../workflow.html?id=16) | [Arbeitsauftrag 16](16-github.md) |
+| [<img src="../media/workflows/WF-17.svg" alt="Vorschau Workflow 17" width="300">](../workflow.html?id=17) | **17 – Übergabe und Audit** · [interaktive Ansicht](../workflow.html?id=17) | [Arbeitsauftrag 17](17-handoff.md) |
+
+[Alle visuellen Workflows in der Galerie](../workflows.html) · [Agenten und Freigaben](../AGENTEN-UND-WORKFLOWS.md)
+
 | Nr. | Bereich | Arbeitsauftrag |
 |---|---|---|
 | 01 | Strategie | [Prompt & Workflow 01](01-strategy.md) |
