@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 04: GitHub- und Lokalbestand synchronisieren
+[![Visualisierte Workflow-Vorschau 04](../media/workflows/WF-04.svg)](../workflow.html?id=04)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=04)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
