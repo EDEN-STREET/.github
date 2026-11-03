@@ -32,6 +32,7 @@ async function run(){
  for(let i=1;i<=17;i++)await check("Workflow "+i,async()=>{
   const id=String(i).padStart(2,"0");await open("workflow.html?id="+id);
   if(await page.locator("#which").inputValue()!==id)throw Error("incorrect workflow");await image("#diagram");
+  const zoom=await page.locator("#diagramFull").getAttribute("href");if(zoom!=="media/workflows/WF-"+id+".svg")throw Error("full-size diagram link missing");
   await page.locator("#next").click();if(!(await page.locator("#result").innerText()).includes("Schritt 2/5"))throw Error("Next broken");
   await page.locator("#reset").click();if(!(await page.locator("#result").innerText()).includes("Schritt 1/5"))throw Error("Reset broken");
   if(["09","12","15"].includes(id))await shot("03-workflow-"+id+".png");
