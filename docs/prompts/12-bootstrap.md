@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 12: Universal Bootstrap und Einsteigerführung
+[![Visualisierte Workflow-Vorschau 12](../media/workflows/WF-12.svg)](../workflow.html?id=12)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=12)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
