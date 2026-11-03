@@ -6,16 +6,16 @@ Diese Galerie macht die vorhandenen, im Repository nachgewiesenen Demo-Oberfläc
 ## Gesamtprojekt
 | Oberfläche | Zweck | Demo-Quelle | Zustand |
 |---|---|---|---|
-| **EDEN-Term / Workbench** | Terminalartige Arbeitsoberfläche, Navigation, Status und Entwickleransicht | [HTML auf Entwicklungszweig](https://github.com/EDEN-STREET/LAPTOP-OS/blob/feature/gate5-universal-preflight-v0.1.0/web/index.html) | Branding teilweise angepasst, Layout beibehalten |
-| **Wiki** | Wissensportal und Quellenzugang | [HTML](https://github.com/EDEN-STREET/LAPTOP-OS/blob/feature/gate5-universal-preflight-v0.1.0/web/wiki.html) | Branding teilweise angepasst |
-| **Handbuch** | Kapitel und Entwicklungsstand | [HTML](https://github.com/EDEN-STREET/LAPTOP-OS/blob/feature/gate5-universal-preflight-v0.1.0/web/handbuch.html) | Branding teilweise angepasst |
-| **Projekte / Kanban** | Modulspuren und Aufgaben | [HTML](https://github.com/EDEN-STREET/LAPTOP-OS/blob/feature/gate5-universal-preflight-v0.1.0/web/projects.html) | unveränderte Ansicht |
-| **Builder** | Entwurf von Assistenten und Workflows | [HTML](https://github.com/EDEN-STREET/LAPTOP-OS/blob/feature/gate5-universal-preflight-v0.1.0/web/builder.html) | Branding teilweise angepasst |
-| **Quellen** | Quellennavigation und Nachweise | [HTML](https://github.com/EDEN-STREET/LAPTOP-OS/blob/feature/gate5-universal-preflight-v0.1.0/web/quellen.html) | Branding teilweise angepasst |
+| **EDEN-Term / Workbench** | Terminalartige Arbeitsoberfläche, Navigation, Status und Entwickleransicht | [HTML auf Entwicklungszweig](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/web/index.html) | EDEN-Term-Branding auf main integriert, Layout beibehalten |
+| **Wiki** | Wissensportal und Quellenzugang | [HTML](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/web/wiki.html) | EDEN-Term-Branding auf main integriert |
+| **Handbuch** | Kapitel und Entwicklungsstand | [HTML](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/web/handbuch.html) | EDEN-Term-Branding auf main integriert |
+| **Projekte / Kanban** | Modulspuren und Aufgaben | [HTML](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/web/projects.html) | unveränderte Ansicht |
+| **Builder** | Entwurf von Assistenten und Workflows | [HTML](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/web/builder.html) | EDEN-Term-Branding auf main integriert |
+| **Quellen** | Quellennavigation und Nachweise | [HTML](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/web/quellen.html) | EDEN-Term-Branding auf main integriert |
 
 ## Projekt LAPTOP-OS
-- [Geführte Windows-Einrichtung — Demo](https://github.com/EDEN-STREET/LAPTOP-OS/blob/feature/gate5-universal-preflight-v0.1.0/web/setup.html)
-- [EDEN-Term Workbench — Demo](https://github.com/EDEN-STREET/LAPTOP-OS/blob/feature/gate5-universal-preflight-v0.1.0/web/index.html)
+- [Geführte Windows-Einrichtung — Demo](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/web/setup.html)
+- [EDEN-Term Workbench — Demo](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/web/index.html)
 - [Hardware-Preflight — Spezifikation](https://github.com/EDEN-STREET/LAPTOP-OS/blob/feature/gate5-universal-preflight-v0.1.0/docs/gate5/UNIVERSAL-HARDWARE-PREFLIGHT-v0.1.0.md)
 
 ## Projekt ROUTER
