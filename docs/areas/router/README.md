@@ -1,5 +1,7 @@
 # EDEN ROUTER — Oberfläche, Vorschau und Arbeitsanleitung
 
+**[Eigenständiges öffentliches EDEN ROUTER Repository](https://github.com/EDEN-STREET/ROUTER)** · [Suite Portal](../../index.html)
+
 [← Gesamtprojekt](../../index.html) · [Alle Oberflächen](../README.md) · [Alle Workflows](../../workflows.html) · [Assistenten-Anweisungen](llms.txt)
 
 **Zustand:** KONZEPT / interaktive Simulation · **Keine reale Geräteaktion.**
