@@ -42,3 +42,35 @@ GitHub zeigt HTML-Dateien primär als Quelltext und nicht als ausgeführte App. 
 
 ## Noch offen
 Vollständige historische Demo-Inventur, tatsächliche Browser-Screenshots, visuelle Vorher-/Nachher-Diffs, UI-End-to-End-Tests, Veröffentlichung von Live-Demos und getrennte Projektgalerien für Router und Mobile.
+
+
+## 14 Vorschaukacheln mit klickbarer HTML-Oberfläche
+
+Die statischen Kopien der früheren EDEN-Demos liegen jetzt im Portal-Repository unter `docs/legacy/`. Das Umschaltfenster [`docs/preview.html`](preview.html) bietet Links und ein `iframe` für die vollständigen Ansichten. Die gesonderte [Konzept-Demo](concept-demo.html) für ROUTER, MOBILE, Suite und Academy simuliert nur UI-Zustände.
+
+| Bereich | Vorschaubild | HTML-Datei | Status |
+|---|---|---|---|
+| EDEN-Term | [![EDEN-Term](media/previews/terminal.svg)](preview.html?surface=terminal) | [Workbench](legacy/index.html) | Bestehende HTML-Demo |
+| EDEN Wiki | [![Wiki](media/previews/wiki.svg)](preview.html?surface=wiki) | [Wiki](legacy/wiki.html) | Bestehende HTML-Demo |
+| EDEN Handbuch | [![Handbuch](media/previews/handbuch.svg)](preview.html?surface=handbuch) | [Handbuch](legacy/handbuch.html) | Bestehende HTML-Demo |
+| EDEN Builder | [![Builder](media/previews/builder.svg)](preview.html?surface=builder) | [Builder](legacy/builder.html) | Bestehende HTML-Demo |
+| Projekte / Kanban | [![Projekte](media/previews/projects.svg)](preview.html?surface=projects) | [Kanban](legacy/projects.html) | Bestehende HTML-Demo |
+| Setup | [![Setup](media/previews/setup.svg)](preview.html?surface=setup) | [Setup](legacy/setup.html) | Bestehende HTML-Demo |
+| Quellen | [![Quellen](media/previews/quellen.svg)](preview.html?surface=quellen) | [Quellen](legacy/quellen.html) | Bestehende HTML-Demo |
+| Toolbox | [![Toolbox](media/previews/toolbox.svg)](preview.html?surface=toolbox) | [Toolbox](legacy/toolbox.html) | Bestehende HTML-Demo |
+| Grimoire | [![Grimoire](media/previews/grimoire.svg)](preview.html?surface=grimoire) | [Grimoire](legacy/grimoire.html) | Bestehende HTML-Demo |
+| Testlab | [![Testlab](media/previews/testlab.svg)](preview.html?surface=testlab) | [Testlab](legacy/testlab.html) | Bestehende HTML-Demo |
+| ROUTER | [![ROUTER](media/previews/router.svg)](preview.html?surface=router) | [Konzept](concept-demo.html?surface=router) | Simulation |
+| MOBILE | [![MOBILE](media/previews/mobile.svg)](preview.html?surface=mobile) | [Konzept](concept-demo.html?surface=mobile) | Simulation |
+| Suite | [![Suite](media/previews/suite.svg)](preview.html?surface=suite) | [Konzept](concept-demo.html?surface=suite) | Simulation |
+| Academy | [![Academy](media/previews/academy.svg)](preview.html?surface=academy) | [Konzept](concept-demo.html?surface=academy) | Simulation |
+
+**Wichtig:** Die Bilder sind stilisierte Visualisierungen, keine realen Browser-Screenshots. GitHub stellt HTML-Dateien in der Datei-Ansicht als Quelltext dar; das Ausführen des `iframe`-Portals erfordert einen aktiven Webhost. Für Pages siehe [Hosting-Anleitung](PAGES-UND-REPOSITORIES.md).
+
+## Workflow-Vorschauen
+
+[![Workflow-Preview Setup](media/workflows/WF-12.svg)](workflow.html?id=12)
+
+[![Workflow-Preview Demo-Bau](media/workflows/WF-13.svg)](workflow.html?id=13)
+
+**[Alle 17 Abläufe](workflows.html)** · [Bedienungsanleitungen](prompts/README.md)
