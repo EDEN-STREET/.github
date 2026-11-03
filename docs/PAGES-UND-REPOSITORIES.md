@@ -27,3 +27,15 @@ Vorhandene geprüfte Original-PDF des EDEN-Gesamthandbuchs nötig; erst nach Dat
 - [ ] ROUTER und MOBILE als separate GitHub-Repositories erstellen
 - [ ] Original-110+-Seiten-PDF prüfen und im Wiki veröffentlichen
 - [ ] Screenshots, Browser-E2E und Accessibility auf ausgelieferter Version abnehmen
+
+
+## Tatsächlich angelegte Aufgaben und Repo-Vorlagen
+- [Issue #2 – ROUTER/MOBILE-Repositories anlegen](https://github.com/EDEN-STREET/.github/issues/2)
+- [Issue #3 – GitHub Pages aktivieren und Browser prüfen](https://github.com/EDEN-STREET/.github/issues/3)
+- [ROUTER-Repo-Vorlage](repository-templates/ROUTER/README.md) mit [llms.txt](repository-templates/ROUTER/llms.txt) und [Workflows](repository-templates/ROUTER/docs/WORKFLOWS.md)
+- [MOBILE-Repo-Vorlage](repository-templates/MOBILE/README.md) mit [llms.txt](repository-templates/MOBILE/llms.txt) und [Workflows](repository-templates/MOBILE/docs/WORKFLOWS.md)
+- [15 Oberfläche mit Vorschaubildern](areas/README.md), [17 Workflow-Grafiken](workflows.html), [maschinelles Manifest](workflows/manifest.json)
+
+**Wichtig:** Die erstellten Repository-Vorlagen und Projektseiten sind keine tatsächlich angelegten eigenständigen GitHub-Repositories. Ohne passenden GitHub-Admin-Endpunkt kann dieser Schritt nicht eigenmächtig abgeschlossen werden. Nach der echten Anlage müssen die öffentlichen Links umgestellt und die Frontseitenbilder wiederverwendet werden.
+
+**Rendering:** GitHub-READMEs zeigen verlinkte Bilder, unterbinden jedoch die Ausführung von `iframe`-Applikationen. Für `iframe` ist das HTML-Portal über GitHub Pages oder einen anderen Webhost auszuliefern. Alle Screenshots müssen nach tatsächlichem Browser-Render belegt werden.
