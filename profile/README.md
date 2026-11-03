@@ -40,7 +40,7 @@
 - **PIXEL/MOBILE:** Geplante mobile Strecke; noch kein eigenständiges Repository bestätigt.
 - **Plattformkern:** Vorgesehene Dienste für Inventar, Workflows, Richtlinien, Audit und Support; Architekturkonzept, nicht vollständig implementiert.
 - **Academy / Handbuch / Wiki:** Lernpfade vom Einstieg bis zur technischen Vertiefung; vollständige PDF-Ausgabe noch zu verifizieren.
-- **DkZ™ Terminal:** Gewünschter aktueller Name der Terminal-Oberfläche. In bestehendem Quellcode und README kann noch der historische Name NOUZ vorkommen.
+- **EDEN-Term:** Gewünschter aktueller Name der Terminal-Oberfläche. In bestehendem Quellcode und README kann noch der historische Name EDEN-Term vorkommen.
 
 ## 🔄 Reproduzierbarer Workflow
 
@@ -71,7 +71,7 @@ INVENTAR -> RISIKEN -> PREFLIGHT -> DRY-RUN
 
 ## 📚 Dokumentationsstandard (geplant)
 
-Jeder Bereich erhält eine Einstiegserklärung, eine technische Referenz, ASCII-Diagramme, Glossar, Voraussetzungen, Schrittfolgen, Sicherheitshinweise, Testfälle, Fehlerdiagnose, Wiederherstellung, Versionshistorie und Quellen. PDF-Dateien werden erst nach Sichtung auf vertrauliche Informationen, Herkunft und Veröffentlichungsrechte hochgeladen. Die GitHub-Startseite verlinkt PDFs; sie kann PDFs nicht vollständig als eingebettete Dokumente im README darstellen.
+Jeder Bereich erhält eine Einstiegserklärung, eine technische Referenz, Strukturdiagramme, Glossar, Voraussetzungen, Schrittfolgen, Sicherheitshinweise, Testfälle, Fehlerdiagnose, Wiederherstellung, Versionshistorie und Quellen. PDF-Dateien werden erst nach Sichtung auf vertrauliche Informationen, Herkunft und Veröffentlichungsrechte hochgeladen. Die GitHub-Startseite verlinkt PDFs; sie kann PDFs nicht vollständig als eingebettete Dokumente im README darstellen.
 
 ## 🔐 Sicherheit und Projektstatus
 
@@ -89,6 +89,6 @@ _Dies ist der übergreifende Projektindex. Weitere Repositories und das vollstä
 
 - **[EDEN Suite Masterplan: Gesamtarchitektur, Module, Skills, Workflows, Sicherheit und Roadmap](../docs/EDEN-EXTENDED-MASTERPLAN.md)**
 - **[Dokumentations- und PDF-Register: Quellen, Versionen und Veröffentlichungsstatus](../docs/EDEN-DOKUMENTATIONSREGISTER.md)**
-- **[ASCII-Atlas: Architektur, Erstanschluss, Sicherheitsgates und Datenflüsse](../docs/EDEN-ASCII-ATLAS.md)**
+- **[Strukturatlas: Architektur, Erstanschluss, Sicherheitsgates und Datenflüsse](../docs/EDEN-Textdiagramm-ATLAS.md)**
 
 Die Suite-Dokumente ergänzen den vorhandenen Stand. Das vollständige historische PDF-Handbuch ist weiterhin **nicht als öffentliches Original verifiziert** und wird nicht durch eine unvollständige Neuerstellung ersetzt.
