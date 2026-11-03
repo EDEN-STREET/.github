@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 510" width="960" height="510" role="img" aria-labelledby="t d">
+<title id="t">EDEN-Term — stilisierte Demo-Vorschau</title><desc id="d">Schematische Vorschau eines dunklen EDEN-Term-Interfaces mit drei Bereichen; kein echter Screenshot.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#051513"/><stop offset="1" stop-color="#15162b"/></linearGradient></defs>
+<rect width="960" height="510" rx="22" fill="url(#bg)"/><rect x="15" y="15" width="930" height="478" rx="18" fill="#0b1419" stroke="#3d6a60" stroke-width="2"/>
+<rect x="16" y="16" width="928" height="49" rx="18" fill="#102524"/><circle cx="44" cy="40" r="7" fill="#ff9f90"/><circle cx="68" cy="40" r="7" fill="#f3d481"/><circle cx="92" cy="40" r="7" fill="#63edae"/>
+<text x="124" y="46" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#8cffb9">◆ EDEN-Term</text><text x="786" y="44" font-family="Arial,sans-serif" font-size="12" fill="#b8cabf">ILLUSTRATION · DEMO</text>
+<rect x="32" y="85" width="239" height="390" rx="11" fill="#0e2120" stroke="#2a5047"/>
+<text x="51" y="117" fill="#91f2bb" font-family="Arial" font-size="15" font-weight="700">PROJECTS</text>
+<g font-family="Arial" font-size="16" fill="#d8f6e8"><text x="51" y="162">▸ EDEN Suite</text><text x="51" y="209">▸ LAPTOP-OS</text><text x="51" y="256">▸ ROUTER</text><text x="51" y="303">▸ MOBILE</text><text x="51" y="350">▸ Wiki / Handbuch</text><text x="51" y="397">▸ Workflows</text></g>
+<rect x="287" y="85" width="388" height="390" rx="11" fill="#091c1b" stroke="#315950"/><text x="310" y="117" fill="#91f2bb" font-family="Arial" font-size="15" font-weight="700">TERMINAL / WORKBENCH</text>
+<g font-family="monospace" font-size="17"><text x="308" y="171" fill="#8cecb0">eden&gt; status --overview</text><text x="308" y="213" fill="#c3dfd3">modules:  17 documented</text><text x="308" y="248" fill="#c3dfd3">preview:  simulation only</text><text x="308" y="282" fill="#f3cd7b">hardware: NOT VERIFIED</text><text x="308" y="350" fill="#9cc4d6">eden&gt; explore</text></g>
+<rect x="691" y="85" width="236" height="390" rx="11" fill="#101b29" stroke="#385274"/><text x="709" y="117" fill="#8bc9fa" font-family="Arial" font-size="15" font-weight="700">EVIDENCE / GUIDES</text>
+<g font-family="Arial" font-size="14" fill="#c9e1df"><text x="709" y="163">● Wiki: available</text><text x="709" y="207">● Builder: demo</text><text x="709" y="251">● Tests: pending</text><text x="709" y="295">● Reviews: pending</text></g>
+<rect x="710" y="373" width="198" height="47" rx="9" fill="#153a36" stroke="#56d1ac"/><text x="732" y="403" fill="#9cf7c5" font-family="Arial" font-size="14">OPEN PREVIEW ↗</text></svg>
