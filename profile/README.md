@@ -85,10 +85,10 @@ Jeder Bereich erhält eine Einstiegserklärung, eine technische Referenz, ASCII-
 
 _Dies ist der übergreifende Projektindex. Weitere Repositories und das vollständige PDF-Handbuch werden erst nach tatsächlicher Erstellung bzw. Prüfung verlinkt._
 
-## 📚 EDEN Extended — Vollständige Dokumentationsstruktur
+## 📚 EDEN Suite — Vollständige Dokumentationsstruktur
 
-- **[Extended Masterplan: Gesamtarchitektur, Module, Skills, Workflows, Sicherheit und Roadmap](../docs/EDEN-EXTENDED-MASTERPLAN.md)**
+- **[EDEN Suite Masterplan: Gesamtarchitektur, Module, Skills, Workflows, Sicherheit und Roadmap](../docs/EDEN-EXTENDED-MASTERPLAN.md)**
 - **[Dokumentations- und PDF-Register: Quellen, Versionen und Veröffentlichungsstatus](../docs/EDEN-DOKUMENTATIONSREGISTER.md)**
 - **[ASCII-Atlas: Architektur, Erstanschluss, Sicherheitsgates und Datenflüsse](../docs/EDEN-ASCII-ATLAS.md)**
 
-Die Extended-Dokumente ergänzen den vorhandenen Stand. Das vollständige historische PDF-Handbuch ist weiterhin **nicht als öffentliches Original verifiziert** und wird nicht durch eine unvollständige Neuerstellung ersetzt.
+Die Suite-Dokumente ergänzen den vorhandenen Stand. Das vollständige historische PDF-Handbuch ist weiterhin **nicht als öffentliches Original verifiziert** und wird nicht durch eine unvollständige Neuerstellung ersetzt.
