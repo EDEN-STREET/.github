@@ -1,0 +1,17 @@
+# EDEN Suite – historischer UI-Demo-Bestand
+
+> Dieser Bereich enthält statische Kopien vorhandener EDEN-LAPTOP-OS-HTML-Demoseiten. Quellenstand: Entwicklungszweig feature/gate5-universal-preflight-v0.1.0 am 2026-11-03. Original-Repositories und Historie bewahren.
+
+## Vorhandene Ansichten
+index.html, wiki.html, handbuch.html, projects.html, setup.html, builder.html, quellen.html, toolbox.html, grimoire.html, testlab.html, eden-hub.css, projects.js.
+
+## Bearbeitungsanweisung
+- Vor Änderungen Quellrevision und aktuelle Zielversion vergleichen.
+- Diese statischen UI-Demos nicht zu einem Geräteinstaller erklären.
+- Keine privilegierten Betriebssystem-, Router- oder Firmwareänderungen implementieren.
+- Sichtbare Labels sanft aktualisieren; technische Kennungen und gespeicherte Schemas nur mit Migrationsplan ändern.
+- Browser-Tests und semantische Screen-Diffs vor Freigabe; UI-Status als DEMO deklarieren.
+- Keine persönlichen Daten, Secrets, Forschungsoriginale oder tatsächlichen Gerätekennungen veröffentlichen.
+
+## Zuordnung
+[Galerie](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DEMO-GALERIE.md) · [Prompt 13](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/13-previews.md) · [Test-Workflow 15](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/15-quality.md)
