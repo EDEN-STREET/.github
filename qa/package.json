@@ -1,0 +1,12 @@
+{
+  "name": "eden-suite-visual-qa",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Read-only Browser QA for EDEN Suite Portal",
+  "scripts": {
+    "test:e2e": "node portal.e2e.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}
