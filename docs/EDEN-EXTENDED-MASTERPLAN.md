@@ -1,4 +1,4 @@
-# EDEN Extended — Masterplan und Systemarchitektur
+# EDEN Suite — Masterplan und Systemarchitektur
 Version 0.1.0 · 2026-11-03 · Status: Dokumentationsentwurf, nicht Produktfreigabe
 
 ## 1. Vision und Umfang
