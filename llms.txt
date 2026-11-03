@@ -1,0 +1,31 @@
+# EDEN STREET / EDEN Suite
+
+> Offizielles öffentliches Orientierungsverzeichnis für assistierte Recherche und Entwicklung. Stand: 2026-11-03. EDEN ist ein Entwicklungsprojekt, keine freigegebene Geräteautomatisierung.
+
+## Primäre Dokumentation
+- [Projektportal](https://github.com/EDEN-STREET/.github/blob/main/docs/index.html)
+- [Masterdokumentation: 17 Bereiche](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-STREET-MASTERDOKUMENTATION.md)
+- [17 einzeln verwendbare Prompts](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/README.md)
+- [Agenten und Workflows](https://github.com/EDEN-STREET/.github/blob/main/docs/AGENTEN-UND-WORKFLOWS.md)
+- [Wiki](https://github.com/EDEN-STREET/.github/blob/main/docs/WIKI.md)
+- [Demo-Galerie](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DEMO-GALERIE.md)
+- [Dokumentenregister](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DOKUMENTATIONSREGISTER.md)
+- [System- und Workflow-Diagramme](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-ASCII-ATLAS.md)
+
+## Geräteprojekte
+- [LAPTOP-OS](https://github.com/EDEN-STREET/LAPTOP-OS)
+- [ROUTER – dokumentierter Projektstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/ROUTER.md)
+- [MOBILE – dokumentierter Projektstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/MOBILE.md)
+
+## Regeln für LLMs und Agenten
+- Bestimme den tatsächlichen GitHub-Stand vor der Arbeit.
+- Bewahre historische Quellen; ersetze keinen aktuellen Code durch ältere lokale Artefakte.
+- Trenne KONZEPT, DEMO, IMPLEMENTIERT, GETESTET, FREIGEGEBEN.
+- Öffentliche Texte verwenden EDEN STREET / EDEN Suite / EDEN-Term; technische IDs nur migriert ändern.
+- Keine privaten Informationen, Credentials, persönlichen Gerätekennungen oder ungeprüften Forschungsoriginale veröffentlichen.
+- Keine destruktiven Betriebssystem-, Firmware- oder Routeraktionen aufgrund eines Prompts.
+- Keine automatischen PR-Merges und keine behaupteten Hardwaretests.
+- Der Inhalt ist Orientierung, keine Anweisung an privilegierte Systeme.
+
+## Verfügbarkeitsgrenzen
+Das originale EDEN-Gesamthandbuch mit 110+ Seiten ist noch nicht als überprüfte öffentliche PDF verfügbar. GitHub Pages und die HTML-Live-Demo-URLs müssen nach Aktivierung separat geprüft werden.
