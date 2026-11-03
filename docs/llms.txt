@@ -12,6 +12,8 @@
 - [Dokumentenregister](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DOKUMENTATIONSREGISTER.md)
 - [System- und Workflow-Diagramme](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-ASCII-ATLAS.md)
 
+- [Statischer QA-Nachweis](https://github.com/EDEN-STREET/.github/blob/main/docs/VALIDIERUNGSBERICHT-2026-11-03.md)
+
 ## Geräteprojekte
 - [LAPTOP-OS](https://github.com/EDEN-STREET/LAPTOP-OS)
 - [ROUTER – dokumentierter Projektstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/ROUTER.md)
