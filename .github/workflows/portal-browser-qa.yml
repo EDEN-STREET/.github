@@ -1,6 +1,13 @@
 name: EDEN Suite browser visual QA
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'qa/**'
+      - 'scripts/**'
+      - '.github/workflows/portal-browser-qa.yml'
   pull_request:
     paths:
       - 'docs/**'
@@ -22,6 +29,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Verify 17 workflows, SVG, and internal link targets
+        run: python3 scripts/check_portal.py
       - name: Install pinned Playwright runtime
         working-directory: qa
         run: npm install --no-audit --no-fund --package-lock=false --ignore-scripts
