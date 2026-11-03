@@ -9,7 +9,7 @@
 | 📁 Repositories | 📘 Dokumentation | 📚 Wiki | 🖥️ Demos | 🔁 Workflows | 🗺️ Mindmaps |
 |---|---|---|---|---|---|
 | [Alle Projekte](https://github.com/EDEN-STREET?tab=repositories) | [17 Bereiche](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-STREET-MASTERDOKUMENTATION.md) | [Wiki-Portal](https://github.com/EDEN-STREET/.github/blob/main/docs/WIKI.md) | [Vorschaubilder](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DEMO-GALERIE.md) | [17 visuelle Abläufe](https://github.com/EDEN-STREET/.github/blob/main/docs/workflows.html) | [Strukturatlas](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-ASCII-ATLAS.md) |
-| [LAPTOP-OS](https://github.com/EDEN-STREET/LAPTOP-OS) | [Prompt-/Skill-Katalog](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/README.md) | [PDF-Status](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DOKUMENTATIONSREGISTER.md) | [HTML-Portal-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/index.html) | [Agenten & Rollen](https://github.com/EDEN-STREET/.github/blob/main/docs/AGENTEN-UND-WORKFLOWS.md) | [SVG-Quellen](https://github.com/EDEN-STREET/.github/blob/main/docs/media/EDEN-SUITE-SYSTEMLANDSCHAFT.svg) |
+| [LAPTOP-OS](https://github.com/EDEN-STREET/LAPTOP-OS) · [ROUTER](https://github.com/EDEN-STREET/ROUTER) · [MOBILE](https://github.com/EDEN-STREET/MOBILE) | [Prompt-/Skill-Katalog](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/README.md) | [PDF-Status](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-DOKUMENTATIONSREGISTER.md) | [HTML-Portal-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/index.html) | [Agenten & Rollen](https://github.com/EDEN-STREET/.github/blob/main/docs/AGENTEN-UND-WORKFLOWS.md) | [SVG-Quellen](https://github.com/EDEN-STREET/.github/blob/main/docs/media/EDEN-SUITE-SYSTEMLANDSCHAFT.svg) |
 
 ### 🖥️ Projektvorschauen
 
@@ -18,7 +18,7 @@
 | LAPTOP-OS | ROUTER | MOBILE |
 |---|---|---|
 | [![LAPTOP-OS Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/laptop.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [![ROUTER Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/router.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [![MOBILE Illustration](https://raw.githubusercontent.com/EDEN-STREET/.github/main/docs/media/previews/mobile.svg)](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) |
-| [Repository](https://github.com/EDEN-STREET/LAPTOP-OS) · [UI-Quellansicht](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [Repository](https://github.com/EDEN-STREET/ROUTER) · [Planungsstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/ROUTER.md) · [Konzept-Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/concept-demo.html) | [Repository](https://github.com/EDEN-STREET/MOBILE) · [Planungsstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/MOBILE.md) · [Konzept-Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/concept-demo.html) |
+| [Repository](https://github.com/EDEN-STREET/LAPTOP-OS) · [Live-Vorschau](https://eden-street.github.io/.github/preview.html?surface=terminal) · [UI-Quellansicht](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html) | [Repository](https://github.com/EDEN-STREET/ROUTER) · [Live-Vorschau](https://eden-street.github.io/.github/preview.html?surface=router) · [Planungsstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/ROUTER.md) · [Konzept-Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/concept-demo.html) | [Repository](https://github.com/EDEN-STREET/MOBILE) · [Live-Vorschau](https://eden-street.github.io/.github/preview.html?surface=mobile) · [Planungsstand](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/MOBILE.md) · [Konzept-Demo-Quelle](https://github.com/EDEN-STREET/.github/blob/main/docs/concept-demo.html) |
 
 | EDEN-Term | Builder | Wiki |
 |---|---|---|
@@ -77,7 +77,7 @@
 
 - **LAPTOP-OS:** Qubes/Whonix als Zielarchitektur; Windows-Preflight und nicht-destruktiver npm-Starter als Ausgangspunkt. [Repository](https://github.com/EDEN-STREET/LAPTOP-OS).
 - **ROUTER:** Öffentliches [Repository](https://github.com/EDEN-STREET/ROUTER); Mudi-V2-Gerätestrecke in Planung, keine realen Geräteaktionen.
-- **PIXEL/MOBILE:** Geplante mobile Strecke; noch kein eigenständiges Repository bestätigt.
+- **PIXEL/MOBILE:** Öffentliches [Repository](https://github.com/EDEN-STREET/MOBILE); mobile Begleitstrecke in Planung, keine realen Geräteaktionen.
 - **Plattformkern:** Vorgesehene Dienste für Inventar, Workflows, Richtlinien, Audit und Support; Architekturkonzept, nicht vollständig implementiert.
 - **Academy / Handbuch / Wiki:** Lernpfade vom Einstieg bis zur technischen Vertiefung; vollständige PDF-Ausgabe noch zu verifizieren.
 - **EDEN-Term:** Gewünschter aktueller Name der Terminal-Oberfläche. In technischen Altdaten können abweichende interne Kennungen vorkommen; öffentlich heißt die Oberfläche EDEN-Term.
