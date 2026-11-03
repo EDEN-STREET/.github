@@ -23,3 +23,14 @@ Pixel / GrapheneOS als getrennte mobile Geräte- und Dokumentationsstrecke. Im P
 Ein eigenständiges GitHub-Repository `EDEN-STREET/MOBILE` ist aktuell **nicht verifiziert/noch anzulegen**. Diese Ansicht bewahrt die vorliegende Planungsbasis.
 
 **Keine Firmware- oder Bootloaderaktion wurde ausgeführt.**
+
+
+## Projektvorschau und Workflow
+
+[![EDEN MOBILE – schematische Konzeptvorschau](../media/previews/mobile.svg)](../preview.html?surface=mobile)
+
+[**MOBILE-HTML-Konzeptdemo öffnen**](../preview.html?surface=mobile) · [Arbeitsanleitung und Prompt](../prompts/11-mobile.md) · [Bereichs-llms.txt](../areas/mobile/llms.txt)
+
+[![EDEN MOBILE – dokumentierter Workflow](../media/workflows/WF-11.svg)](../workflow.html?id=11)
+
+Die Bildvorschau zeigt ausschließlich geplante Benutzerführung und enthält keine verbundenen Geräte.
