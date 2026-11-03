@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 08: Wiki, Handbuch und PDF-Register
+[![Visualisierte Workflow-Vorschau 08](../media/workflows/WF-08.svg)](../workflow.html?id=08)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=08)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
