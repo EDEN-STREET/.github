@@ -1,0 +1,29 @@
+# EDEN Setup · llms.txt
+
+> EDEN STREET / EDEN Suite · Oberfläche: setup · Entwicklungsstatus: HTML-Demo oder Konzept, nicht produktiv freigegeben · Stand 2026-11-03
+
+## Aufgabe dieser Oberfläche
+Geführte Einrichtung, Preflight, Dry-Run und Freigabekonzept; keine vollständige OS-Installation.
+
+## Quellen und Auftrag
+- [Überblick](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/setup/README.md)
+- [Zugeordneter Workflow und Prompt](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/12-bootstrap.md)
+- [Masterdokumentation](https://github.com/EDEN-STREET/.github/blob/main/docs/EDEN-STREET-MASTERDOKUMENTATION.md)
+- [Workflow-Galerie](https://github.com/EDEN-STREET/.github/blob/main/docs/workflows.html)
+- [HTML-Vorschau](https://github.com/EDEN-STREET/.github/blob/main/docs/preview.html)
+- [Dokumentations- und Sicherheitsgates](https://github.com/EDEN-STREET/.github/blob/main/docs/SKILLS-UND-BEDIENUNG.md)
+
+## Verbindliches Vorgehen
+1. Vor Änderungen lokalen Stand, GitHub-HEAD und relevanten PR prüfen.
+2. Bestehende HTML-/CSS-/JS-Funktionen und Versionshistorie bewahren.
+3. Sichtbare Namen EDEN STREET / EDEN Suite / EDEN-Term verwenden; APIs nicht stillschweigend migrieren.
+4. Entwurf und Simulation explizit kennzeichnen; keine Test- oder Hardware-Erfolge erfinden.
+5. Auf Feature-Branch mit minimalem Diff arbeiten.
+6. Positive und negative Tests, UI-Zugänglichkeit, Nachweis, Review und Rollback dokumentieren.
+7. Keine privaten Quellen, Credentials oder personenbeziehbaren Gerätekennungen veröffentlichen.
+8. Keine selbstständigen destruktiven OS-/Firmware-/Routeränderungen oder automatischen Merges.
+
+## Agenten
+Discovery → UI/Documentation → Verifier → Security Review → Release Manager.
+
+**Wichtig:** Dieses llms.txt ist ein Arbeitskontext und keine Berechtigung zur Ausführung privilegierter Aktionen.
