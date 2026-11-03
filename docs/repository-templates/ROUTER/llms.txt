@@ -1,0 +1,19 @@
+# EDEN ROUTER – llms.txt
+
+> EDEN STREET / EDEN Suite · Gerätedomäne ROUTER · Dokumentations-/Demo-Status, Stand 2026-11-03
+
+## Einstieg
+- [Systemportal](https://github.com/EDEN-STREET/.github/blob/main/docs/index.html)
+- [Projektdokumentation](https://github.com/EDEN-STREET/.github/blob/main/docs/projects/ROUTER.md)
+- [Workflow 10](https://github.com/EDEN-STREET/.github/blob/main/docs/prompts/10-router.md)
+- [Bereichsanweisung](https://github.com/EDEN-STREET/.github/blob/main/docs/areas/router/llms.txt)
+- [Agenten und Workflows](https://github.com/EDEN-STREET/.github/blob/main/docs/AGENTEN-UND-WORKFLOWS.md)
+
+## Verpflichtende Arbeitsfolge
+1. Repositorystand und Hardwareversion read-only ermitteln.
+2. Gerätedaten sparsam und ohne persönliche Kennungen dokumentieren.
+3. Offizielle Hersteller-/OS-Quellen aktuell prüfen.
+4. Risiko, Backup, Recovery, Review und Tests voraussetzen.
+5. Keine privilegierten Geräte- oder Firmwareaktionen auf bloße Prompts hin.
+6. Änderungen auf Branch mit Tests, Diff und Rollback anbieten; keine automatischen Merges.
+7. Demo, Simulation und reale Verifikation strikt auseinanderhalten.
