@@ -1,4 +1,9 @@
 # EDEN Suite · Arbeitsauftrag 09: LAPTOP-OS und Hardware-Preflight
+[![Visualisierte Workflow-Vorschau 09](../media/workflows/WF-09.svg)](../workflow.html?id=09)
+
+**[Interaktive Schritt-für-Schritt-Demo öffnen](../workflow.html?id=09)** · Die Darstellung ist eine simulierte Prozessansicht, kein tatsächlich ausgeführter Workflow.
+
+
 
 **Typ:** wiederverwendbarer Aufgabenprompt + Workflow · **Version:** 0.1.0 · **Status:** dokumentiertes Arbeitsmuster
 
