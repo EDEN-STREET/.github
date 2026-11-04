@@ -1,0 +1,53 @@
+name: "EDEN Suite live GitHub Pages browser QA"
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/live-pages-browser-qa.yml"
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/live-pages-browser-qa.yml"
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live-pages:
+    name: "Production Pages · 38 Playwright checks"
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout QA source
+        uses: actions/checkout@v4
+      - name: Configure Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify deployed cross-repo audit document exists
+        run: |
+          node --input-type=module -e 'const u="https://eden-street.github.io/.github/EDEN-CROSS-REPO-AUDIT-2026-11-04.md";const r=await fetch(u,{cache:"no-store",signal:AbortSignal.timeout(15000)});const t=await r.text();if(!r.ok||!t.includes("Cross-Repository Zweit-Audit")){console.error("Live Pages audit document missing",r.status);process.exit(1)}console.log("Live Pages audit document verified")'
+      - name: Install pinned Playwright runtime
+        working-directory: qa
+        run: npm install --no-audit --no-fund --package-lock=false --ignore-scripts
+      - name: Install Chromium
+        working-directory: qa
+        run: npx playwright install --with-deps chromium
+      - name: Execute browser QA against public deployed Pages, NOT localhost
+        working-directory: qa
+        env:
+          EDEN_SITE_BASE: https://eden-street.github.io/.github/
+        run: npm run test:e2e
+      - name: Upload browser screenshots and machine-readable report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eden-live-pages-browser-${{ github.run_id }}
+          path: qa/artifacts/
+          if-no-files-found: warn
+          retention-days: 14
