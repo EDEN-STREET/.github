@@ -25,7 +25,7 @@ Vorhandene geprüfte Original-PDF des EDEN-Gesamthandbuchs nötig; erst nach Dat
 - [x] Pages-Einstellung im Repo aktivieren (GitHub Deployment erfolgreich)
 - [ ] Aktuelle Version mit reproduzierbarem, unabhängigen Browser- und Screenshot-Test abnehmen
 - [x] ROUTER und MOBILE als separate GitHub-Repositories erstellen
-- [ ] Original-110+-Seiten-PDF prüfen und im Wiki veröffentlichen
+- [ ] Historisches EDEN-Handbuch v0.8.0 (104 Seiten) unabhängig redaktionell, rechtlich und datenschutzbezogen freigeben; separate zehnseitige Router-PDF nicht als Handbuchteil mitveröffentlichen
 - [ ] Screenshots, Browser-E2E und Accessibility auf ausgelieferter Version abnehmen
 
 
@@ -45,3 +45,12 @@ Vorhandene geprüfte Original-PDF des EDEN-Gesamthandbuchs nötig; erst nach Dat
 - [Portal-Qualitätsbericht](QA-AUDIT-2026-11-03.md)
 - [Browser- und Screenshot-Tests](../qa/README.md)
 - PDF-Handbuch: lokal dokumentiert, aber noch nicht als öffentliches Original veröffentlicht; ein Scanner mit null Treffern ersetzt weder redaktionelle noch urheber-/datenschutzrechtliche Freigabe.
+
+
+## Zweiter unabhängiger Quell- und CI-Abgleich · 2026-11-04
+
+Die bisherige Pages-URL und der veröffentlichte Portal-Stand `b1fa069` sind von der inzwischen auf `v0.8.0-preview.8` weiterentwickelten lokalen Laptop-App zu unterscheiden. Diese App wurde über GitHub-Actions-Runner Windows/Linux mit 70/70 Node-Tests und mit Chromium-Desktop-/390px-Mobile-Screenshots von 13 HTML-Seiten geprüft. ROUTER/MOBILE sind weiter Konzept-Repositories; ihre Dokumentationslinks erhielten eigenständige Offline-CI-Prüfungen.
+
+**Auditbericht:** [EDEN-CROSS-REPO-AUDIT-2026-11-04.md](EDEN-CROSS-REPO-AUDIT-2026-11-04.md) · [Laptop-OS Bereich](areas/laptop/README.md). 
+
+**Wichtiger Unterschied:** Der aktuell vorliegende Audit beweist nicht, dass ein neu deployter Stand auf GitHub Pages erneut live im Browser geprüft wurde. Der KVM8-Tor-VPS-Entwurf bleibt gesondert im Draft PR #6, bis das zugrunde liegende Skriptpaket nachvollziehbar quellcodebasiert geprüft ist.
