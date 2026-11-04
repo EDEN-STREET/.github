@@ -38,3 +38,12 @@ Prüfmatrix, Testdaten, Evidenz, negative Tests und Recovery.
 - Echte Geräteverbindung: **nein**
 - Browser-End-to-End-Test: **noch nicht als bestanden bestätigt**
 - Vollständige Produktfreigabe: **nein**
+
+
+## Erweiterung · Tor VPS KVM8 Testlab (separater Entwurf)
+
+[![Tor VPS Testlab Workflow-SVG](../../media/EDEN-TOR-VPS-WORKFLOW.svg)](../../tor-vps-demo.html)
+
+[Interaktive Tor VPS Architektur-Vorschau](../../tor-vps-demo.html) · [Sicherheitsarchitektur](https://github.com/EDEN-STREET/.github/blob/main/docs/TOR-VPS-KVM8-TESTLAB.md) · [Agentenworkflow](https://github.com/EDEN-STREET/.github/blob/main/docs/TOR-VPS-AGENT-WORKFLOW.md) · [llms.txt](https://github.com/EDEN-STREET/.github/blob/main/docs/TOR-VPS-TESTLAB-llms.txt)
+
+**Status: Konzept-Demo, kein KVM8-VPS verbunden und kein Live-Tor-Server installiert.** Die 17 bestehenden EDEN Suite Workflows bleiben unverändert; dieses Testlab verwendet die separate Kennung `EDEN-TVPS-01`.
