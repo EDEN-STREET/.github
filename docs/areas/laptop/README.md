@@ -32,9 +32,22 @@ Read-only Preflight, vorhandener Starter und kontrollierte Installationsplanung.
 ## Maschinenlesbare Arbeitsanweisung
 [llms.txt für diese Oberfläche](llms.txt)
 
+## Aktueller LAPTOP-OS-Softwarestand (2026-11-04)
+
+Die frühere Portal-Illustration bleibt eine **Konzept-Vorschau**. Die eigenständige lokale npm-App hat inzwischen einen getrennt geprüften, funktionsfähigen Stand **`v0.8.0-preview.8`**:
+
+- [LAPTOP-OS Quellcode und npm-Ein-Kommando-Start](https://github.com/EDEN-STREET/LAPTOP-OS)
+- [Read-only Gate-5- und Reboot-Dokumentation](https://github.com/EDEN-STREET/LAPTOP-OS/blob/main/docs/REBOOT-TO-INSTALLER-WORKFLOW.md)
+- [Vollständigkeits-/Integritäts-Fix der Browser-App, PR #20](https://github.com/EDEN-STREET/LAPTOP-OS/pull/20)
+- [Übergreifender Zweit-Audit über vier Repositories](../../EDEN-CROSS-REPO-AUDIT-2026-11-04.md)
+
+Tests für die eigenständige App: **70/70 Node-Tests** unter Windows und Linux; 13 HTML-Seiten auf Desktop und 390-px-Mobile, 30 PNG-Screenshots, CodeQL und npm-Paketprüfung auf dem Audit-PR. **Diese Tests betreffen die lokale npm-App, nicht automatisch das hier veröffentlichte Portal.**
+
+Windows, Qubes/Tails-Installation, Tor-Kill-Switch und Hardwareeignung sind weiterhin **nicht** freigegeben oder geräteseitig nachgewiesen.
+
 ## Abnahmestatus
 - Vorschauillustration: **vorhanden**
 - HTML-Vorschau-Datei: **im Repository vorhanden**; Hosting nicht verifiziert
 - Echte Geräteverbindung: **nein**
-- Browser-End-to-End-Test: **noch nicht als bestanden bestätigt**
+- Browser-End-to-End-Test: **Portal-Laptop-Skizze nicht mit der getrennt getesteten npm-App verwechseln; App-Testnachweise siehe oben**
 - Vollständige Produktfreigabe: **nein**
