@@ -31,7 +31,7 @@ jobs:
           node-version: "22"
       - name: Verify deployed cross-repo audit document exists
         run: |
-          node --input-type=module -e 'const u="https://eden-street.github.io/.github/EDEN-CROSS-REPO-AUDIT-2026-11-04.md";const r=await fetch(u,{cache:"no-store",signal:AbortSignal.timeout(15000)});const t=await r.text();if(!r.ok||!t.includes("Cross-Repository Zweit-Audit")){console.error("Live Pages audit document missing",r.status);process.exit(1)}console.log("Live Pages audit document verified")'
+          node --input-type=module -e 'const b="https://eden-street.github.io/.github/EDEN-CROSS-REPO-AUDIT-2026-11-04";let ok=false;for(const ext of [".html",".md"]){const r=await fetch(b+ext,{cache:"no-store",signal:AbortSignal.timeout(15000)});const t=await r.text();if(r.ok&&t.includes("Cross-Repository Zweit-Audit")){ok=true;console.log("Live Pages audit revision found:",ext);break}}if(!ok){console.error("Deployed audit revision not found at known HTML/MD URLs");process.exit(1)}'
       - name: Install pinned Playwright runtime
         working-directory: qa
         run: npm install --no-audit --no-fund --package-lock=false --ignore-scripts
