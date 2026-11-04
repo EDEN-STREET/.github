@@ -53,4 +53,4 @@ Die bisherige Pages-URL und der veröffentlichte Portal-Stand `b1fa069` sind von
 
 **Auditbericht:** [EDEN-CROSS-REPO-AUDIT-2026-11-04.md](EDEN-CROSS-REPO-AUDIT-2026-11-04.md) · [Laptop-OS Bereich](areas/laptop/README.md). 
 
-**Wichtiger Unterschied:** Der aktuell vorliegende Audit beweist nicht, dass ein neu deployter Stand auf GitHub Pages erneut live im Browser geprüft wurde. Der KVM8-Tor-VPS-Entwurf bleibt gesondert im Draft PR #6, bis das zugrunde liegende Skriptpaket nachvollziehbar quellcodebasiert geprüft ist.
+**Neuer Live-Nachweis:** Nach Integration des Cross-Repo-Audits wurde das öffentliche GitHub-Pages-Portal auf der echten Domain mit [38/38 Browserchecks und 11 Screenshots](https://github.com/EDEN-STREET/.github/actions/runs/41872176742) erfolgreich geprüft; das zugehörige [Pages-Deployment](https://github.com/EDEN-STREET/.github/actions/runs/41872175325) war erfolgreich. Der KVM8-Tor-VPS-Entwurf bleibt gesondert im Draft PR #6, bis sein Skriptpaket als reproduzierbar getesteter Quelltext vorliegt.

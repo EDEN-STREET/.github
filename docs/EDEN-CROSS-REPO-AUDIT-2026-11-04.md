@@ -35,7 +35,7 @@ Die Links zu PRs dienen der Versionsnachvollziehbarkeit; ein reiner CI-Erfolg be
 - **Keine echte Tor-/Whonix-Kill-Switch-Prüfung.** Systemweite Anonymität kann nicht aus einer Browser-/VM-Simulation abgeleitet werden.
 - **Tor VPS KVM8:** [Draft-PR #6](https://github.com/EDEN-STREET/.github/pull/6) ergänzt eine Konzept-Demo; das eigentliche Skriptpaket liegt laut PR-Angaben bisher **außerhalb** des Repositorys und wurde nicht auf einem VPS installiert.
 - **Historisches Originalhandbuch:** `EDEN_HANDBUCH_v0.8.0.pdf` mit 104 Seiten und Markdownfassung bleiben lokal, bis eine eigene redaktionelle, Lizenz- und Datenschutzfreigabe vorliegt; die zehnseitige Router-PDF ist ein separates Archivdokument.
-- **Portal Live-E2E:** Der frühere veröffentlichte Stand wurde mit 56 Live-Checks dokumentiert. Diese aktuelle Quellprüfung enthält **keinen neuen externen Live-Browserlauf des Pages-Portals**; nicht mit dem CI-Browser des npm-Pakets verwechseln.
+- **Portal Live-E2E:** Der neu eingebaute eigenständige GitHub-Pages-Workflow prüft die **wirklich ausgelieferte Live-Domain**: [Run #41872176742](https://github.com/EDEN-STREET/.github/actions/runs/41872176742) auf `main` nach [Pages-Deployment #41872175325](https://github.com/EDEN-STREET/.github/actions/runs/41872175325), **38/38 Playwright-Checks grün, 11 PNG-Screenshots, null gemeldete Fehler**. Dies ist eine Browserprüfung des Portals, keine Qubes-/Router-/Handy- oder VPS-Geräteprüfung.
 - **ROUTER/MOBILE:** keine echten Geräteprüfungen, die Repo-CI prüft aktuell nur Dokumentationsstruktur.
 
 ## Reproduzierbarer Prüfworkflow
