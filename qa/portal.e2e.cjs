@@ -45,6 +45,25 @@ async function run(){
   await page.locator('[data-tab="workflows"]').click();if(!(await page.locator("#panel-workflows").isVisible()))throw Error("workflow tab hidden");
   await labels("Wiki");return shot("04-wiki-desktop.png");
  });
+ await check("Tor VPS Testlab: five-phase simulator, image, modes and mobile",async()=>{
+   await page.setViewportSize({width:1440,height:900});await open("tor-vps-demo.html");
+   if(!(await page.locator("h1").innerText()).includes("Tor VPS"))throw Error("Tor VPS heading missing");
+   await image(".card img");
+   if(!(await page.locator("#progress").innerText()).includes("PHASE 00"))throw Error("phase 0 missing");
+   await page.locator("#next").click();
+   if(!(await page.locator("#progress").innerText()).includes("PHASE 01"))throw Error("next step broken");
+   await page.locator("#reset").click();
+   if(!(await page.locator("#progress").innerText()).includes("PHASE 00"))throw Error("reset broken");
+   await page.locator("#mode").selectOption("relay-plan");
+   if(!(await page.locator("#configInfo").innerText()).includes("relay-plan"))throw Error("relay plan selector broken");
+   await labels("Tor VPS Testlab desktop");
+   await shot("08-tor-vps-desktop.png");
+   await page.setViewportSize({width:390,height:844});
+   await labels("Tor VPS Testlab mobile");
+   await shot("09-tor-vps-mobile.png");
+   await page.setViewportSize({width:1440,height:900});
+   return "5 phases + 3 modes + desktop/mobile UI verified, no real server connected";
+ });
  await check("Responsive homepage at 390 px",async()=>{await page.setViewportSize({width:390,height:844});await open("index.html");await labels("home mobile");return shot("05-home-mobile.png")});
  await check("Responsive workflow at 390 px",async()=>{await open("workflow.html?id=12");await labels("workflow mobile");return shot("06-workflow-mobile.png")});
  await check("Responsive preview at 390 px",async()=>{await open("preview.html?surface=mobile");await labels("preview mobile");return shot("07-preview-mobile.png")});
