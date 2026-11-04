@@ -1,0 +1,18 @@
+# EDEN Tor VPS Testlab – llms.txt
+
+> EDEN STREET / EDEN Suite · Workflow EDEN-TVPS-01 · DOKUMENTATIONSENTWURF / NICHT REMOTE INSTALLIERT
+
+## Einstieg
+- [Architektur und Skriptinventar](https://github.com/EDEN-STREET/.github/blob/main/docs/TOR-VPS-KVM8-TESTLAB.md)
+- [Agentenworkflow](https://github.com/EDEN-STREET/.github/blob/main/docs/TOR-VPS-AGENT-WORKFLOW.md)
+- [Original Tor Project APT Anleitung](https://support.torproject.org/little-t-tor/getting-started/installing/)
+
+## Verbindlich
+1. Vor Änderungen Git-HEAD und parallele PRs ermitteln.
+2. Unverifizierte Anonymitäts-/DNS-Behauptungen verbieten.
+3. Kein root-/password-SSH-Abschalten ohne zweite Schlüssel-Sitzung und Provider-Rettungskonsole.
+4. Aktiven Relay-/Bridge-Betrieb separat genehmigen, nie implizit starten.
+5. Keine privaten Keydateien, IP-Adressen, Provider-IDs oder Tokens in öffentliche Repositories.
+6. Default Dry-Run, nur konkrete Benutzerfreigabe für privilegierte --apply-Aktionen.
+7. Reproduzierbare Tests und Rollback mit tatsächlichem Status; nicht aus Dokumentation auf erledigte VPS-Installation schließen.
+8. Eine echte KVM8-Installation ist noch NICHT erfolgt.
