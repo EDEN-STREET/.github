@@ -3,8 +3,8 @@
 > EDEN STREET / EDEN Suite · Workflow EDEN-TVPS-01 · DOKUMENTATIONSENTWURF / NICHT REMOTE INSTALLIERT
 
 ## Einstieg
-- [Architektur und Skriptinventar](https://github.com/EDEN-STREET/.github/blob/feature/tor-vps-kvm8-testlab-docs-v0.1.0/docs/TOR-VPS-KVM8-TESTLAB.md)
-- [Agentenworkflow](https://github.com/EDEN-STREET/.github/blob/feature/tor-vps-kvm8-testlab-docs-v0.1.0/docs/TOR-VPS-AGENT-WORKFLOW.md)
+- [Architektur und Skriptinventar](https://github.com/EDEN-STREET/.github/blob/main/docs/TOR-VPS-KVM8-TESTLAB.md)
+- [Agentenworkflow](https://github.com/EDEN-STREET/.github/blob/main/docs/TOR-VPS-AGENT-WORKFLOW.md)
 - [Original Tor Project APT Anleitung](https://support.torproject.org/little-t-tor/getting-started/installing/)
 
 ## Verbindlich
