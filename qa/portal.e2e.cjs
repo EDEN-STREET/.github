@@ -17,6 +17,7 @@ async function run(){
  const context=await browser.newContext({viewport:{width:1440,height:900},deviceScaleFactor:2});
  page=await context.newPage();
  await check("Homepage, diagrams, desktop screenshot",async()=>{await open("index.html");if(!(await page.locator("h1").innerText()).includes("Plattform"))throw Error("heading missing");await image(".heroGraphic");await labels("home");return shot("01-home-desktop.png")});
+ await check("Ultimate Hub landing page",async()=>{await open("ultimate-hub.html");if(!(await page.locator("h1").innerText()).includes("Ultimate Hub"))throw Error("hub heading missing");const cmd=await page.locator("#startCommand").innerText();if(!cmd.includes("LAPTOP-OS/archive/refs/heads/main.tar.gz"))throw Error("start command missing");if(!(await page.locator(".eyebrow").innerText()).toLowerCase().includes("0.8.0-preview.9"))throw Error("preview.9 label missing");await labels("ultimate hub");return shot("01b-ultimate-hub.png")});
  await check("All HTML docs use rendered GitHub Markdown",async()=>{await open("index.html");const bad=await page.locator('a[href$=".md"]').evaluateAll(a=>a.filter(x=>!x.href.startsWith("https://github.com/EDEN-STREET/.github/blob/main/docs/")).map(x=>x.href));if(bad.length)throw Error(bad.join("; "));return "Markdown links routed to GitHub"});
  for(const s of surfaces)await check("Preview "+s,async()=>{
   await open("preview.html?surface="+s);
@@ -48,6 +49,6 @@ async function run(){
  await check("Responsive homepage at 390 px",async()=>{await page.setViewportSize({width:390,height:844});await open("index.html");await labels("home mobile");return shot("05-home-mobile.png")});
  await check("Responsive workflow at 390 px",async()=>{await open("workflow.html?id=12");await labels("workflow mobile");return shot("06-workflow-mobile.png")});
  await check("Responsive preview at 390 px",async()=>{await open("preview.html?surface=mobile");await labels("preview mobile");return shot("07-preview-mobile.png")});
- await check("No uncaught top-level JavaScript errors",async()=>{const errs=[];page.on("pageerror",e=>errs.push(e.message));for(const u of ["index.html","preview.html?surface=terminal","workflow.html?id=01","wiki.html","concept-demo.html?surface=router"])await open(u);if(errs.length)throw Error(errs.join("; "));return "5 routes"});
+ await check("No uncaught top-level JavaScript errors",async()=>{const errs=[];page.on("pageerror",e=>errs.push(e.message));for(const u of ["index.html","ultimate-hub.html","preview.html?surface=terminal","workflow.html?id=01","wiki.html","concept-demo.html?surface=router"])await open(u);if(errs.length)throw Error(errs.join("; "));return "6 routes"});
 }
 (async()=>{try{await run()}catch(e){add("Runner",false,String(e?.stack||e).slice(0,500))}finally{if(browser)await browser.close();report.finished=new Date().toISOString();report.result=report.errors.length?"FAIL":"PASS";fs.writeFileSync(path.join(out,"report.json"),JSON.stringify(report,null,2)+"\n");console.log(JSON.stringify({result:report.result,checks:report.checks.length,errors:report.errors.length,screenshots:report.screenshots.length}));process.exitCode=report.errors.length?1:0}})();
